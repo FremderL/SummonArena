@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Summon Arena</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Summon Arena</h1>
+      <div id="player-stats">Llaves: <span id="key-count">0</span> | Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span></div>
+      <div id="lobby-controls">
+        <button id="btn-new-summon">Invocar (1 llave)</button>
+        <select id="mode-select">
+          <option value="duel">Duelo a muerte</option>
+          <option value="practice">Práctica</option>
+        </select>
+        <button id="btn-new-room">Crear Sala LAN</button>
+        <input id="join-room-id" placeholder="ID sala" />
+        <button id="btn-join-room">Unirse</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="summon-screen" class="panel">
+        <h2>Invocación</h2>
+        <!-- Dentro de #summon-screen -->
+        <div id="portal-container">
+          <div id="portal" class="portal hidden"></div>
+          <div id="summon-result" class="creature-card"></div>   <!-- ← cambiado -->
+        </div>
+        <div id="gacha-log" class="log"></div>
+      </section>
+
+      <section id="arena-screen" class="panel hidden">
+        <h2>Arena</h2>
+        <!-- Dentro de .arena (reemplaza las dos plataformas) -->
+        <div class="arena">
+        <div>
+          <h3>Jugador</h3>
+          <div id="player-creature-card"></div>
+          <div id="player-hp">
+            <div id="player-hp-fill"></div>
+            <div id="player-hp-text"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Enemigo</h3>
+          <div id="enemy-creature-card"></div>
+          <div id="enemy-hp">
+            <div id="enemy-hp-fill"></div>
+            <div id="enemy-hp-text"></div>
+          </div>
+        </div>
+        </div>
+
+        <div id="action-panel">
+          <button class="action-btn" data-action="attack">Atacar</button>
+          <button class="action-btn" data-action="defend">Defender</button>
+          <button class="action-btn" data-action="recover">Recuperar</button>
+          <button class="action-btn" data-action="ability">Habilidad</button>
+        </div>
+
+        <div id="combat-log" class="log"></div>
+
+        <div id="controls-bottom">
+          <button id="btn-to-summon">Volver Invocación</button>
+          <button id="btn-start-combat">Start Combat (Local)</button>
+        </div>
+      </section>
+
+      <section id="game-over" class="panel hidden">
+        <h2>GAME OVER</h2>
+        <p id="game-over-msg">Has perdido. No tienes llaves ni criatura.</p>
+        <button id="btn-restart">Reiniciar</button>
+      </section>
+    </main>
+
+    <footer>
+      <small>Summon Arena — Demo local / LAN</small>
+    </footer>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="abilities.js"></script>
+  <script src="gacha.js"></script>
+  <script src="animations.js"></script>
+  <script src="ai.js"></script>
+  <script src="network.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

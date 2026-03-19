@@ -1,0 +1,22 @@
+module.exports = [
+    {name: "Aetherfang",image: "assets/creatures/aetherfang.png", vida:90, ataque:18, defensa:6, regen:2},
+    {name: "Pyroclast Drake",image: "assets/creatures/aetherfang.png", vida:100, ataque:22, defensa:8, regen:1},
+    {name: "Luminary Seraph",image: "assets/creatures/aetherfang.png", vida:80, ataque:16, defensa:7, regen:3},
+    {name: "Umbra Stalker",image: "assets/creatures/aetherfang.png", vida:78, ataque:20, defensa:5, regen:2},
+    {name: "Titan Mossbeard",image: "assets/creatures/aetherfang.png", vida:140, ataque:12, defensa:14, regen:4},
+    {name: "Frostbite Warden",image: "assets/creatures/aetherfang.png", vida:110, ataque:17, defensa:10, regen:2},
+    {name: "Storm Hydra",image: "assets/creatures/aetherfang.png", vida:130, ataque:24, defensa:9, regen:1},
+    {name: "Infernal Juggernaut",image: "assets/creatures/aetherfang.png", vida:150, ataque:26, defensa:12, regen:1},
+    {name: "Crystal Basilisk",image: "assets/creatures/aetherfang.png", vida:95, ataque:19, defensa:11, regen:2},
+    {name: "Chrono Mantis",image: "assets/creatures/aetherfang.png", vida:85, ataque:18, defensa:6, regen:3},
+    {name: "Void Leviathan",image: "assets/creatures/aetherfang.png", vida:160, ataque:28, defensa:16, regen:2},
+    {name: "Sunflare Phoenix",image: "assets/creatures/aetherfang.png", vida:88, ataque:21, defensa:6, regen:5},
+    {name: "Ironclad Colossus",image: "assets/creatures/aetherfang.png", vida:170, ataque:14, defensa:18, regen:2},
+    {name: "Bloodmoon Reaper",image: "assets/creatures/aetherfang.png", vida:92, ataque:25, defensa:7, regen:1},
+    {name: "Glimmer Sprite",image: "assets/creatures/aetherfang.png", vida:60, ataque:12, defensa:4, regen:4},
+    {name: "Abyssal Kraken",image: "assets/creatures/aetherfang.png", vida:155, ataque:23, defensa:13, regen:2},
+    {name: "Thunder Behemoth",image: "assets/creatures/aetherfang.png", vida:135, ataque:24, defensa:11, regen:1},
+    {name: "Verdant Guardian",image: "assets/creatures/aetherfang.png", vida:120, ataque:15, defensa:12, regen:3},
+    {name: "Nether Djinn",image: "assets/creatures/aetherfang.png", vida:82, ataque:20, defensa:5, regen:4},
+    {name: "Astral Chimera",image: "assets/creatures/aetherfang.png", vida:125, ataque:27, defensa:9, regen:2}
+  ];
