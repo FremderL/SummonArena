@@ -1,0 +1,1 @@
+{"mode":"running","coordinateSystem":"origin top-left, x rightwards, y downwards","level":1,"timerRemaining":22.8,"player":{"x":450,"y":260,"size":18,"life":100},"enemies":[{"nombre":"Slime Rojo","x":198,"y":84.1,"tamano":36,"dano":8,"velocidad":120},{"nombre":"Cazador Umbrío","x":805,"y":86.4,"tamano":44,"dano":12,"velocidad":150}],"status":"Orbe Vital te ayudó (+10)."}

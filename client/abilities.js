@@ -1,44 +1,38 @@
 /* abilities.js
-   Responsable: definir habilidades activas y pasivas
+   Responsable: definir habilidades visibles para UI y cliente
 */
 (() => {
   const ALL = [
-    {id:'sangreVoraz', name:'Sangre Voraz', type:'active', desc:'Inflige daño extra del 20% del ataque.', exec: (src, tgt, ctx) => {
-      const extra = Math.max(1, Math.round(src.atk * 0.2 || src.ataque * 0.2));
-      return {type:'damage', amount: extra, text:`Sangre Voraz +${extra}`};
-    }},
-
-    {id:'escudoArcano', name:'Escudo Arcano', type:'passive', desc:'Al defender, aumenta defensa temporalmente.', apply: (cre) => { cre._tempDefBoost = (cre._tempDefBoost||0)+6; }},
-
-    {id:'tormentaEter', name:'Tormenta de Éter', type:'active', desc:'Daño en área moderado.', exec:(src,tgt,ctx)=>{
-      const dmg = Math.max(1, Math.round(src.ataque * 1.1));
-      return {type:'damage', amount:dmg, text:`Tormenta Éter ${dmg}`};
-    }},
-
-    {id:'reinicioTemporal', name:'Reinicio Temporal', type:'active', desc:'Restaura parte de la vida propia.', exec:(src)=>{
-      const heal = Math.max(1, Math.round(src.vidaMax * 0.18));
-      return {type:'heal', amount:heal, text:`Reinicio +${heal}`};
-    }},
-
-    {id:'espinasVivas', name:'Espinas Vivas', type:'passive', desc:'Devuelve parte del daño recibido.', onDamaged:(cre,damage)=>{
-      const ret = Math.round(damage*0.25); return ret;
-    }},
-
-    {id:'meteoros', name:'Lluvia de Meteoros', type:'active', desc:'Ataque fuerte con posibilidad de crítico.', exec:(src,tgt)=>{
-      const dmg = Math.round(src.ataque * 1.6); const crit = Math.random() < 0.18;
-      return {type:'damage', amount: dmg * (crit?2:1), crit, text:`Meteoros ${crit? 'CRIT ':' '}${dmg}`};
-    }},
-
-    {id:'auraVital', name:'Aura Vital', type:'passive', desc:'Aumenta la regeneración.', apply:(cre)=>{ cre.regen = Math.max(1, cre.regen + 2); }},
-
-    {id:'colmilloVacio', name:'Colmillo del Vacío', type:'active', desc:'Ataque que reduce la defensa enemiga temporalmente.', exec:(src,tgt)=>{
-      const dmg = Math.round(src.ataque*1.1); return {type:'damage', amount:dmg, debuff:{defense:-3,duration:2}, text:`Colmillo ${dmg}`};
-    }},
-
-    {id:'cataclismo', name:'Cataclismo', type:'active', desc:'Gran daño, largo cooldown.', exec:(src,tgt)=>{
-      const dmg = Math.round(src.ataque*2.1); return {type:'damage', amount:dmg, text:`Cataclismo ${dmg}`};
-    }},
+    { id: 'golpeVoraz', name: 'Golpe Voraz', type: 'active', cooldownTurns: 3, desc: 'Inflige dano y cura parte del dano causado.' },
+    { id: 'muroAstral', name: 'Muro Astral', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Otorga un escudo por 2 turnos.' },
+    { id: 'sangreAbierta', name: 'Sangre Abierta', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Aplica Sangrado durante 2 turnos.' },
+    { id: 'eclipseDebilitante', name: 'Eclipse Debilitante', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Reduce el ataque rival durante 2 turnos.' },
+    { id: 'fisuraArcana', name: 'Fisura Arcana', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Causa dano y deja Expuesto al rival durante 2 turnos.' },
+    { id: 'pulsoVital', name: 'Pulso Vital', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Aplica Regeneracion durante 2 turnos.' },
+    { id: 'selloDeSilencio', name: 'Sello De Silencio', type: 'active', cooldownTurns: 4, durationTurns: 1, desc: 'Impide al rival usar habilidad activa en su siguiente turno.' },
+    { id: 'llamaAgonica', name: 'Llama Agonica', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Quema al rival y castiga su recuperacion.' },
+    { id: 'coronaDelEclipse', name: 'Corona Del Eclipse', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Golpe pesado que deja Expuesto al rival durante 2 turnos.' },
+    { id: 'mareaVoraz', name: 'Marea Voraz', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Desgarra al rival, roba vida y aplica Sangrado.' },
+    { id: 'renacerSolar', name: 'Renacer Solar', type: 'active', cooldownTurns: 5, durationTurns: 2, desc: 'Se cura, levanta Escudo y activa Regeneracion por 2 turnos.' },
+    { id: 'vendavalRasante', name: 'Vendaval Rasante', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Embiste con un corte veloz y deja Expuesto al objetivo.' },
+    { id: 'resguardoDeRaiz', name: 'Resguardo De Raiz', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.' },
+    { id: 'marcaDelVacio', name: 'Marca Del Vacio', type: 'active', cooldownTurns: 4, durationTurns: 1, desc: 'Golpea la mente rival y la deja en Silencio durante 1 turno.' },
+    { id: 'embateSalvaje', name: 'Embate Salvaje', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Carga con violencia y activa un impulso de ataque por 2 turnos.' },
+    { id: 'cosechaEscarlata', name: 'Cosecha Escarlata', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Corta, roba vida y deja una Quemadura sangrienta en el rival.' },
+    { id: 'pactoLuminar', name: 'Pacto Luminar', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Restaura vida propia y debilita el ataque rival por 2 turnos.' },
+    { id: 'juramentoDelBastion', name: 'Juramento Del Bastion', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Refuerza la defensa y levanta un escudo para aguantar el intercambio.' },
+    { id: 'mareaUmbria', name: 'Marea Umbria', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Golpea con una ola oscura, quema al rival y marchita su ataque.' },
+    { id: 'letaniaDelAlba', name: 'Letania Del Alba', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Entona una letania que restaura vida y fortalece la defensa con regeneracion.' },
+    { id: 'decretoDeCeniza', name: 'Decreto De Ceniza', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Un veredicto ardiente que quema al rival y agrieta su defensa.' },
+    { id: 'himnoDeGuerra', name: 'Himno De Guerra', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Eleva el fervor de combate, aumentando el ataque y el sosten propio.' },
+    { id: 'colmilloDeRuina', name: 'Colmillo De Ruina', type: 'active', cooldownTurns: 3, durationTurns: 2, desc: 'Perfora la guardia del objetivo y deja un sangrado constante.' },
+    { id: 'selloDelTitan', name: 'Sello Del Titan', type: 'active', cooldownTurns: 4, durationTurns: 2, desc: 'Marca la arena con un sello antiguo que fortalece tu defensa.' },
+    { id: 'cazaImplacable', name: 'Caza Implacable', type: 'passive', desc: 'Inflige mas dano a enemigos debilitados.' },
+    { id: 'pielDeGuerra', name: 'Piel De Guerra', type: 'passive', desc: 'Al defender, gana una guardia reforzada y un pequeno escudo.' },
+    { id: 'caparazonEspinas', name: 'Caparazon De Espinas', type: 'passive', desc: 'Refleja parte del dano recibido.' },
+    { id: 'rabiaPrimordial', name: 'Rabia Primordial', type: 'passive', desc: 'Gana ataque cuando cae por debajo del 40% de vida.' },
+    { id: 'auraDeSosten', name: 'Aura De Sosten', type: 'passive', desc: 'Mejora la regeneracion base.' }
   ];
 
-  window.ABILITIES = {ALL};
+  window.ABILITIES = { ALL };
 })();

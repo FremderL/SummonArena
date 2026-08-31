@@ -1,0 +1,60 @@
+{
+  "codextestsession": {
+    "username": "codextestsession",
+    "passwordSalt": "9b603862de69b90a5c3362d01122811a",
+    "passwordHash": "bfc338d1124a1790743221568cc83f168010e9385f44af212edfa5d61c47e970",
+    "playerId": "acct_5984c69f07936a29",
+    "createdAt": "2026-03-27T16:11:48.517Z",
+    "lastLoginAt": "2026-03-27T16:11:48.517Z"
+  },
+  "gamemaster": {
+    "username": "gamemaster",
+    "passwordSalt": "e7bc267681bef767b1bf0013f62baa29",
+    "passwordHash": "d72eef1ed34da44976b3c090d8ffa9941ebeb28351eb662d9a572c85a7eb5ad1",
+    "playerId": "acct_334c98ddee120fda",
+    "authToken": "c273a06326a35e370dc9b42bca09de91773bc5fb9d957319",
+    "sessionIssuedAt": "2026-03-27T17:16:17.180Z",
+    "createdAt": "2026-03-27T17:16:17.180Z",
+    "lastLoginAt": "2026-04-10T04:55:05.103Z"
+  },
+  "kain": {
+    "username": "kain",
+    "passwordSalt": "1ed486431640896bbe9b5454173374a8",
+    "passwordHash": "dbeb5abae7810b17b4557c17eba5acb2de00c4356b60fdd4648d2a36dfc79015",
+    "playerId": "acct_0d16de84e354b6e9",
+    "authToken": "1425776539067d0d63c9273caaec93f5cda639f97c02300c",
+    "sessionIssuedAt": "2026-04-10T05:49:20.882Z",
+    "createdAt": "2026-04-04T21:22:26.265Z",
+    "lastLoginAt": "2026-04-13T21:22:12.320Z"
+  },
+  "camila_n": {
+    "username": "camila_n",
+    "passwordSalt": "0ecbfb0584fc1f78f1ed403e58781136",
+    "passwordHash": "54069f8e2df85285d6fb71a21e48608e50930bdc7fef7c860c3e2f5b7cc65c4b",
+    "playerId": "acct_cc7f87e340f7e557",
+    "authToken": "d2cc44ad82610b29e64eaa746e040104903693288de7344e",
+    "sessionIssuedAt": "2026-04-04T22:04:20.934Z",
+    "createdAt": "2026-04-04T22:04:20.934Z",
+    "lastLoginAt": "2026-04-10T03:33:53.908Z"
+  },
+  "mximo": {
+    "username": "mximo",
+    "passwordSalt": "122989442e18cc42208d8b631cfd34fe",
+    "passwordHash": "610909149c69f2a8c47ec0ec55654d40c7a9ea02f6a24b0002b84264d134496f",
+    "playerId": "acct_b78a3bd7f830bb5f",
+    "authToken": "da36fce3c6afa91e492655bc47ff4e460f8d149ef4a0d456",
+    "sessionIssuedAt": "2026-04-11T20:10:38.462Z",
+    "createdAt": "2026-04-11T20:10:38.462Z",
+    "lastLoginAt": "2026-04-23T23:59:04.710Z"
+  },
+  "paloma": {
+    "username": "paloma",
+    "passwordSalt": "e64f38aee4417a5839ab958eff507dc2",
+    "passwordHash": "fccb28c308118ce7358a8c83ae0470a35653f90e39eda24bf8a42bc860b6fe56",
+    "playerId": "acct_fa51e0a78a0cdca8",
+    "authToken": "130d58e1cd5bf42b64e0ecc99f35576c1a075cd4a34bd163",
+    "sessionIssuedAt": "2026-04-13T19:15:05.683Z",
+    "createdAt": "2026-04-13T19:15:05.683Z",
+    "lastLoginAt": "2026-04-13T21:22:20.367Z"
+  }
+}

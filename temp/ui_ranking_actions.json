@@ -1,0 +1,5 @@
+{
+  "steps": [
+    { "clickSelector": "#btn-open-ranking", "waitMs": 500, "frames": 6 }
+  ]
+}
