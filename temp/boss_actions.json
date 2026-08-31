@@ -1,0 +1,6 @@
+{
+  "steps": [
+    { "clickSelector": "#btn-new-summon", "waitMs": 700, "frames": 2 },
+    { "clickSelector": "#btn-enter-practice", "waitMs": 900, "frames": 6 }
+  ]
+}

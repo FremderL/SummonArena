@@ -1,0 +1,5 @@
+{
+  "steps": [
+    { "clickSelector": "#btn-open-account", "waitMs": 500, "frames": 6 }
+  ]
+}

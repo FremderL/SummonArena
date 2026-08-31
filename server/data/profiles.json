@@ -1,0 +1,5892 @@
+{
+  "player_3yhxcl4jr1": {
+    "keys": 1,
+    "wins": 0,
+    "losses": 0,
+    "creature": {
+      "name": "Luminary Seraph",
+      "image": "assets/creatures/Luminary_Serap.png",
+      "vida": 80,
+      "ataque": 16,
+      "defensa": 7,
+      "regen": 3,
+      "lore": "",
+      "rank": "comun",
+      "vidaMax": 80,
+      "abilities": []
+    }
+  },
+  "player_2s5kfizap1": {
+    "keys": 1,
+    "wins": 0,
+    "losses": 0,
+    "creature": {
+      "name": "Storm Hydra",
+      "image": "assets/creatures/Storm_Hydra.png",
+      "vida": 130,
+      "ataque": 24,
+      "defensa": 9,
+      "regen": 1,
+      "lore": "",
+      "rank": "comun",
+      "vidaMax": 130,
+      "abilities": []
+    }
+  },
+  "player_o9hgz8082f": {
+    "name": "Invocador",
+    "sessionToken": "96dd73cffa20ca3189d0bc2af5910f3cbc5a",
+    "keys": 1,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": {
+      "name": "Thunder Behemoth",
+      "image": "assets/creatures/aetherfang.png",
+      "vida": 162,
+      "ataque": 29,
+      "defensa": 13,
+      "regen": 1,
+      "lore": "",
+      "rank": "pocoComun",
+      "vidaMax": 162,
+      "abilities": []
+    },
+    "createdAt": "2026-03-27T05:47:48.700Z",
+    "lastSeenAt": "2026-03-27T05:47:51.219Z"
+  },
+  "player_qlt7wxtvea": {
+    "name": "El Creador",
+    "sessionToken": "a5e34dd6be6f38a8969745bc88c3c7a30788",
+    "keys": 4,
+    "wins": 3,
+    "losses": 0,
+    "bossWins": 2,
+    "creature": {
+      "name": "Storm Hydra",
+      "image": "assets/creatures/Storm_Hydra.png",
+      "vida": 520,
+      "ataque": 96,
+      "defensa": 36,
+      "regen": 4,
+      "lore": "",
+      "rank": "mitico",
+      "vidaMax": 520,
+      "abilities": [
+        {
+          "id": "tormentaEter",
+          "name": "Tormenta de Eter",
+          "type": "active",
+          "cooldownTurns": 3,
+          "durationTurns": 2,
+          "damageMultiplier": 1.15,
+          "desc": "Danio moderado y reduce 2 DEF del rival durante 2 turnos propios.",
+          "effects": [
+            {
+              "target": "enemy",
+              "stat": "defenseFlat",
+              "amount": -2,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ],
+      "hp": 520,
+      "atk": 96,
+      "def": 36,
+      "_cooldowns": {
+        "tormentaEter": 3
+      }
+    },
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T05:51:19.395Z",
+    "lastSeenAt": "2026-03-27T17:13:56.099Z"
+  },
+  "player_1g54fupea4": {
+    "name": "Jesus",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 1,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T06:38:46.636Z",
+    "createdAt": "2026-03-27T05:52:49.247Z",
+    "lastSeenAt": "2026-03-27T06:38:46.636Z"
+  },
+  "player_ho2u6ump8z": {
+    "name": "Invocador",
+    "sessionToken": "200f6993128f88db89dcd4be15432c33d67f",
+    "keys": 1,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": {
+      "name": "Aetherfang",
+      "image": "assets/creatures/aetherfang.png",
+      "vida": 90,
+      "ataque": 18,
+      "defensa": 6,
+      "regen": 2,
+      "lore": "",
+      "rank": "comun",
+      "vidaMax": 90,
+      "abilities": []
+    },
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T06:32:03.136Z",
+    "lastSeenAt": "2026-03-27T06:32:05.702Z"
+  },
+  "player_vz8mht9mli": {
+    "name": "Invocador",
+    "sessionToken": "469040489923bcbf832755bc89fc89e3ff75",
+    "keys": 3,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T06:33:48.752Z",
+    "lastSeenAt": "2026-03-27T06:33:48.752Z"
+  },
+  "player_imsnf3afw6": {
+    "name": "SunRai",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 1,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T06:41:16.005Z",
+    "createdAt": "2026-03-27T06:38:49.345Z",
+    "lastSeenAt": "2026-03-27T06:41:16.005Z"
+  },
+  "player_2wkydbrkjz": {
+    "name": "ElVerdaderoCreador",
+    "sessionToken": "8bca2d19d20b8501cd373f57f104806ac18b",
+    "keys": 0,
+    "gold": 2442,
+    "essence": 8,
+    "wins": 26,
+    "losses": 8,
+    "bossWins": 26,
+    "creature": {
+      "name": "Verdant Guardian",
+      "image": "assets/creatures/Verdant_Guardian.png",
+      "vida": 480,
+      "ataque": 60,
+      "defensa": 48,
+      "regen": 12,
+      "lore": "",
+      "rank": "mitico",
+      "vidaMax": 480,
+      "abilities": [
+        {
+          "id": "sangreVoraz",
+          "name": "Sangre Voraz",
+          "type": "active",
+          "cooldownTurns": 3,
+          "durationTurns": 2,
+          "desc": "Aumenta 20% tu ataque durante 2 turnos propios.",
+          "effects": [
+            {
+              "target": "self",
+              "stat": "attackPct",
+              "amount": 0.2,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ],
+      "hp": 480,
+      "atk": 60,
+      "def": 48,
+      "_cooldowns": {},
+      "eternalId": "a1eaadd8c422257b2886"
+    },
+    "consumables": {
+      "star_sigil": 1,
+      "mending_salve": 2
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus",
+      "eclipse_velvet",
+      "verdant_sanctum",
+      "glacier_cathedral"
+    ],
+    "equippedBackgroundId": "glacier_cathedral",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "relic_umbra_claw",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [
+      "morvath_forge",
+      "selkaith_glacier",
+      "zarynth_quartz",
+      "rhaziel_horizon",
+      "vulkris_magma",
+      "noctyra_umbra",
+      "xelthis_chrono",
+      "ferron_ironwall"
+    ],
+    "claimedApostleMilestones": [
+      "apostle_2",
+      "apostle_4",
+      "apostle_6"
+    ],
+    "preservedCreatures": [
+      {
+        "name": "Nether Djinn",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "vida": 141,
+        "ataque": 34,
+        "defensa": 9,
+        "regen": 7,
+        "archetype": "mistica",
+        "race": "Djinn del Umbral",
+        "legacy": "Vorath",
+        "signatureAbilityId": "eclipseDebilitante",
+        "lore": "Sus pactos deforman la voluntad y silencian a sus enemigos.",
+        "rank": "mitico",
+        "vidaMax": 141,
+        "abilities": [
+          {
+            "id": "eclipseDebilitante",
+            "name": "Eclipse Debilitante",
+            "type": "active",
+            "archetypes": [
+              "mistica"
+            ],
+            "cooldownTurns": 3,
+            "durationTurns": 2,
+            "desc": "Reduce el ataque rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "attackFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "5ece3a115c5a9d22a1e5",
+        "hp": 141,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "vida": 215,
+        "ataque": 46,
+        "defensa": 15,
+        "regen": 3,
+        "archetype": "mistica",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "signatureAbilityId": "fisuraArcana",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "rank": "mitico",
+        "vidaMax": 215,
+        "abilities": [
+          {
+            "id": "fisuraArcana",
+            "name": "Fisura Arcana",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "damageMultiplier": 1.05,
+            "durationTurns": 2,
+            "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "f7103c221dfd38acb360",
+        "hp": 215,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Ironclad Colossus",
+        "image": "assets/creatures/armored_golem.png",
+        "vida": 301,
+        "ataque": 22,
+        "defensa": 33,
+        "regen": 3,
+        "archetype": "guardiana",
+        "race": "Titanes Ferricos",
+        "legacy": "Sylvara",
+        "signatureAbilityId": "pielDeGuerra",
+        "lore": "Forjado para no caer, incluso cuando el mundo se parte.",
+        "rank": "mitico",
+        "vidaMax": 301,
+        "abilities": [
+          {
+            "id": "pielDeGuerra",
+            "name": "Piel De Guerra",
+            "type": "passive",
+            "archetypes": [
+              "guardiana"
+            ],
+            "desc": "Al defender, gana una guardia reforzada y un pequeno escudo."
+          },
+          {
+            "id": "bendicionDeSylvara",
+            "name": "Bendicion De Sylvara",
+            "type": "active",
+            "archetypes": [
+              "support",
+              "guardiana"
+            ],
+            "cooldownTurns": 4,
+            "durationTurns": 3,
+            "healPercent": 0.18,
+            "desc": "Invoca la bendicion del bosque para curar y fortalecer.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "regenTurn",
+                "amount": 6,
+                "durationTurns": 3
+              },
+              {
+                "target": "self",
+                "stat": "defenseFlat",
+                "amount": 2,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "2392693d053489a04bfa",
+        "hp": 301,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Frostbite Warden",
+        "image": "assets/creatures/Frostbite_Warden.png",
+        "vida": 200,
+        "ataque": 28,
+        "defensa": 19,
+        "regen": 3,
+        "archetype": "guardiana",
+        "race": "Centinelas del Hielo",
+        "legacy": "Sylvara",
+        "signatureAbilityId": "caparazonEspinas",
+        "lore": "Centinela del hielo eterno que desgasta al enemigo con paciencia.",
+        "rank": "mitico",
+        "vidaMax": 200,
+        "abilities": [
+          {
+            "id": "caparazonEspinas",
+            "name": "Caparazon De Espinas",
+            "type": "passive",
+            "archetypes": [
+              "guardiana"
+            ],
+            "desc": "Refleja parte del dano recibido."
+          }
+        ],
+        "eternalId": "12d7ea32299efb90ef50",
+        "hp": 200,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Sanctum Herald",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "vida": 165,
+        "ataque": 24,
+        "defensa": 17,
+        "regen": 9,
+        "archetype": "support",
+        "race": "Heraldos del Santuario",
+        "legacy": "Helion",
+        "signatureAbilityId": "letaniaDelAlba",
+        "lore": "Mensajera de santuarios perdidos que envuelve la arena con un alba protectora.",
+        "rank": "mitico",
+        "vidaMax": 165,
+        "abilities": [
+          {
+            "id": "letaniaDelAlba",
+            "name": "Letania Del Alba",
+            "type": "active",
+            "archetypes": [
+              "support"
+            ],
+            "cooldownTurns": 4,
+            "durationTurns": 2,
+            "healPercent": 0.12,
+            "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "defenseFlat",
+                "amount": 3,
+                "durationTurns": 2
+              },
+              {
+                "target": "self",
+                "stat": "regenTurn",
+                "amount": 5,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "6b63c5b867afd240bc6b",
+        "hp": 165,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Nether Djinn",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "vida": 122,
+        "ataque": 29,
+        "defensa": 8,
+        "regen": 6,
+        "archetype": "mistica",
+        "race": "Djinn del Umbral",
+        "legacy": "Abisal",
+        "signatureAbilityId": "eclipseDebilitante",
+        "lore": "Sus pactos deforman la voluntad y silencian a sus enemigos.",
+        "rank": "legendario",
+        "vidaMax": 122,
+        "abilities": [
+          {
+            "id": "eclipseDebilitante",
+            "name": "Eclipse Debilitante",
+            "type": "active",
+            "archetypes": [
+              "mistica"
+            ],
+            "cooldownTurns": 3,
+            "durationTurns": 2,
+            "desc": "Reduce el ataque rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "attackFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          },
+          {
+            "id": "fisuraArcana",
+            "name": "Fisura Arcana",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "damageMultiplier": 1.05,
+            "durationTurns": 2,
+            "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "e27319b0037eec20052c",
+        "hp": 122,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "vida": 155,
+        "ataque": 32,
+        "defensa": 12,
+        "regen": 2,
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "legacy": "Solar",
+        "signatureAbilityId": "llamaAgonica",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "rank": "legendario",
+        "vidaMax": 155,
+        "abilities": [
+          {
+            "id": "llamaAgonica",
+            "name": "Llama Agonica",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "durationTurns": 2,
+            "desc": "Quema al rival y castiga su recuperacion.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "burn",
+                "amount": 5,
+                "durationTurns": 2
+              }
+            ]
+          },
+          {
+            "id": "fisuraArcana",
+            "name": "Fisura Arcana",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "damageMultiplier": 1.05,
+            "durationTurns": 2,
+            "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "93bdfa4203a868adf7d7",
+        "hp": 155,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Infernal Juggernaut",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "vida": 304,
+        "ataque": 50,
+        "defensa": 24,
+        "regen": 2,
+        "archetype": "salvaje",
+        "signatureAbilityId": "embateSalvaje",
+        "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+        "rank": "epico",
+        "vidaMax": 304,
+        "abilities": [
+          {
+            "id": "embateSalvaje",
+            "name": "Embate Salvaje",
+            "type": "active",
+            "archetypes": [
+              "salvaje"
+            ],
+            "cooldownTurns": 4,
+            "damageMultiplier": 1.22,
+            "durationTurns": 2,
+            "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "attackFlat",
+                "amount": 4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "hp": 304,
+        "atk": 50,
+        "def": 24,
+        "_cooldowns": {},
+        "eternalId": "868d72b2a6bf1fface2f"
+      },
+      {
+        "name": "Verdant Guardian",
+        "image": "assets/creatures/Verdant_Guardian.png",
+        "vida": 480,
+        "ataque": 60,
+        "defensa": 48,
+        "regen": 12,
+        "lore": "",
+        "rank": "mitico",
+        "vidaMax": 480,
+        "abilities": [
+          {
+            "id": "sangreVoraz",
+            "name": "Sangre Voraz",
+            "type": "active",
+            "cooldownTurns": 3,
+            "durationTurns": 2,
+            "desc": "Aumenta 20% tu ataque durante 2 turnos propios.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "attackPct",
+                "amount": 0.2,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "hp": 480,
+        "atk": 60,
+        "def": 48,
+        "_cooldowns": {},
+        "eternalId": "a1eaadd8c422257b2886"
+      }
+    ],
+    "history": [
+      {
+        "title": "Criatura equipada",
+        "detail": "Verdant Guardian fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-23T23:57:57.479Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Mareas Coronadas.",
+        "tone": "danger",
+        "at": "2026-04-23T23:57:19.321Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Mareas Coronadas (raro). El Sigilo de Resonancia altero la invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:56:13.082Z"
+      },
+      {
+        "title": "Consumible usado",
+        "detail": "El Sigilo de Resonancia alterara tu siguiente invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:55:57.576Z"
+      },
+      {
+        "title": "Criatura eternizada",
+        "detail": "Nether Djinn fue preservada con una Esencia de Eternidad.",
+        "tone": "good",
+        "at": "2026-04-23T23:54:28.366Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Nether Djinn (mitico). El Sigilo de Resonancia altero la invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:54:15.291Z"
+      },
+      {
+        "title": "Consumible usado",
+        "detail": "El Sigilo de Resonancia alterara tu siguiente invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:54:03.274Z"
+      },
+      {
+        "title": "Reliquia equipada",
+        "detail": "Ahora portas Garra Del Eclipse Negro.",
+        "tone": "neutral",
+        "at": "2026-04-23T23:53:06.702Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Ferron, Coloso del Ultimo Muro y obtuviste 282 de oro.",
+        "tone": "good",
+        "at": "2026-04-23T23:52:18.632Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad como botin del apostol.",
+        "tone": "good",
+        "at": "2026-04-23T23:52:18.632Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Salva De Marea como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-23T23:52:18.631Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Coloso del Ultimo Muro.",
+        "tone": "good",
+        "at": "2026-04-23T23:52:18.631Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Verdant Guardian fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-23T23:50:26.575Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Astral Chimera.",
+        "tone": "danger",
+        "at": "2026-04-23T23:50:09.208Z"
+      },
+      {
+        "title": "Criatura eternizada",
+        "detail": "Astral Chimera fue preservada con una Esencia de Eternidad.",
+        "tone": "good",
+        "at": "2026-04-23T23:48:09.722Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Astral Chimera (mitico). El Sigilo de Resonancia altero la invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:47:57.245Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-23T23:47:52.293Z"
+      },
+      {
+        "title": "Consumible usado",
+        "detail": "El Sigilo de Resonancia alterara tu siguiente invocacion.",
+        "tone": "good",
+        "at": "2026-04-23T23:47:45.512Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Verdant Guardian fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-10T06:15:44.887Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Ironclad Colossus (raro).",
+        "tone": "good",
+        "at": "2026-04-10T06:15:32.136Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Storm Hydra (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-10T06:15:28.629Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Xelthis, Aguja del Tiempo Verde y obtuviste 256 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T06:15:18.468Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Espina Del Reloj Quebrado.",
+        "tone": "good",
+        "at": "2026-04-10T06:15:18.468Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Sigilo De Resonancia como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-10T06:15:18.468Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Mareas Coronadas",
+        "image": "assets/creatures/thalmora_mareas.png",
+        "archetype": "guardiana",
+        "race": "Mareas Coronadas",
+        "legacy": "Nerea",
+        "lore": "Un coloso de marea petrificada que guarda umbrales hundidos.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-23T23:56:13.082Z"
+      },
+      {
+        "name": "Nether Djinn",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "archetype": "mistica",
+        "lore": "Sus pactos deforman la voluntad y silencian a sus enemigos.",
+        "bestRank": "mitico",
+        "count": 3,
+        "lastSeenAt": "2026-04-23T23:54:15.291Z",
+        "race": "Djinn del Umbral",
+        "legacy": "Vorath",
+        "primaryAbility": {
+          "id": "eclipseDebilitante",
+          "name": "Eclipse Debilitante",
+          "type": "active",
+          "desc": "Reduce el ataque rival durante 2 turnos."
+        }
+      },
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "archetype": "mistica",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "bestRank": "mitico",
+        "count": 2,
+        "lastSeenAt": "2026-04-23T23:47:57.243Z",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "primaryAbility": {
+          "id": "fisuraArcana",
+          "name": "Fisura Arcana",
+          "type": "active",
+          "desc": "Causa dano y deja Expuesto al rival durante 2 turnos."
+        }
+      },
+      {
+        "name": "Ironclad Colossus",
+        "image": "assets/creatures/armored_golem.png",
+        "archetype": "guardiana",
+        "lore": "Forjado para no caer, incluso cuando el mundo se parte.",
+        "bestRank": "mitico",
+        "count": 4,
+        "lastSeenAt": "2026-04-10T06:15:32.136Z",
+        "race": "Titanes Ferricos",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "pielDeGuerra",
+          "name": "Piel De Guerra",
+          "type": "passive",
+          "desc": "Al defender, gana una guardia reforzada y un pequeno escudo."
+        }
+      },
+      {
+        "name": "Storm Hydra",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "archetype": "salvaje",
+        "lore": "Cada cabeza ruge con mas fuerza cuando la tormenta se intensifica.",
+        "bestRank": "epico",
+        "count": 4,
+        "lastSeenAt": "2026-04-10T06:15:28.629Z",
+        "race": "Hidras Tempestivas",
+        "legacy": "Kairon",
+        "primaryAbility": {
+          "id": "himnoDeGuerra",
+          "name": "Himno De Guerra",
+          "type": "active",
+          "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio."
+        }
+      },
+      {
+        "name": "Verdant Guardian",
+        "image": "assets/creatures/Verdant_Guardian.png",
+        "archetype": "support",
+        "race": "Guardianes Verdantes",
+        "legacy": "Sylvara",
+        "lore": "Protege la vida del bosque con escudos de savia y raiz.",
+        "primaryAbility": {
+          "id": "resguardoDeRaiz",
+          "name": "Resguardo De Raiz",
+          "type": "active",
+          "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion."
+        },
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:13:59.426Z"
+      },
+      {
+        "name": "Crystal Basilisk",
+        "image": "assets/creatures/Crystal_Basilisk.png",
+        "archetype": "mistica",
+        "lore": "Su mirada fractura defensas y deja grietas en la realidad.",
+        "bestRank": "raro",
+        "count": 3,
+        "lastSeenAt": "2026-04-10T06:13:16.644Z",
+        "race": "Basiliscos de Cuarzo",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "decretoDeCeniza",
+          "name": "Decreto De Ceniza",
+          "type": "active",
+          "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa."
+        }
+      },
+      {
+        "name": "Frostbite Warden",
+        "image": "assets/creatures/Frostbite_Warden.png",
+        "archetype": "guardiana",
+        "lore": "Centinela del hielo eterno que desgasta al enemigo con paciencia.",
+        "bestRank": "mitico",
+        "count": 4,
+        "lastSeenAt": "2026-04-10T06:06:53.722Z",
+        "race": "Centinelas del Hielo",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "caparazonEspinas",
+          "name": "Caparazon De Espinas",
+          "type": "passive",
+          "desc": "Refleja parte del dano recibido."
+        }
+      },
+      {
+        "name": "Sunflare Phoenix",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "archetype": "support",
+        "race": "Fenix del Cenit",
+        "legacy": "Helion",
+        "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+        "primaryAbility": {
+          "id": "renacerSolar",
+          "name": "Renacer Solar",
+          "type": "active",
+          "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos."
+        },
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:05:08.765Z"
+      },
+      {
+        "name": "Chrono Mantis",
+        "image": "assets/creatures/Chrono_Mantis.png",
+        "archetype": "mistica",
+        "lore": "Caza entre pulsos de tiempo roto y silencios imposibles.",
+        "bestRank": "raro",
+        "count": 3,
+        "lastSeenAt": "2026-04-10T06:05:06.534Z",
+        "race": "Mantis Cronicas",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "marcaDelVacio",
+          "name": "Marca Del Vacio",
+          "type": "active",
+          "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno."
+        }
+      },
+      {
+        "name": "Sanctum Herald",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "archetype": "support",
+        "lore": "Mensajera de santuarios perdidos que envuelve la arena con un alba protectora.",
+        "bestRank": "mitico",
+        "count": 4,
+        "lastSeenAt": "2026-04-10T06:02:43.791Z",
+        "race": "Heraldos del Santuario",
+        "legacy": "Helion",
+        "primaryAbility": {
+          "id": "letaniaDelAlba",
+          "name": "Letania Del Alba",
+          "type": "active",
+          "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion."
+        }
+      },
+      {
+        "name": "Aetherfang",
+        "image": "assets/creatures/aetherfang.png",
+        "archetype": "asaltante",
+        "lore": "Un depredador de las ruinas etereas que remata sin piedad.",
+        "bestRank": "raro",
+        "count": 3,
+        "lastSeenAt": "2026-04-04T23:50:41.616Z"
+      },
+      {
+        "name": "Titan Mossbeard",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "archetype": "guardiana",
+        "lore": "Un coloso de bosque que resiste como una muralla viviente.",
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:50:28.378Z"
+      },
+      {
+        "name": "Ashen Hierophant",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "archetype": "mistica",
+        "lore": "Oficia ritos de ceniza para recordar a una raza borrada por el abismo.",
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T23:50:23.282Z"
+      },
+      {
+        "name": "Umbra Stalker",
+        "image": "assets/creatures/Umbra_Stalker.png",
+        "archetype": "asaltante",
+        "lore": "Acecha en penumbras hasta que encuentra una presa expuesta.",
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T23:50:20.948Z"
+      },
+      {
+        "name": "Abyssal Kraken",
+        "image": "assets/creatures/Abyssal_Kraken.png",
+        "archetype": "vampirica",
+        "lore": "Un horror abisal que arrastra la vida del rival hacia el fondo.",
+        "bestRank": "pocoComun",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:50:12.082Z"
+      },
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "bestRank": "legendario",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:49:28.628Z"
+      },
+      {
+        "name": "Thunder Behemoth",
+        "image": "assets/creatures/thunderous_Behemoth.png",
+        "archetype": "salvaje",
+        "lore": "Su furia crece con cada herida recibida en plena tormenta.",
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T23:49:24.447Z"
+      },
+      {
+        "name": "Void Leviathan",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "archetype": "guardiana",
+        "lore": "Una marea abisal convertida en titan que devora la luz.",
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:49:16.447Z"
+      },
+      {
+        "name": "Duskfang Matriarch",
+        "image": "assets/creatures/Umbra_Stalker.png",
+        "archetype": "vampirica",
+        "lore": "Una matriarca nocturna que arrastra a sus presas bajo mareas de sombra.",
+        "bestRank": "epico",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T23:49:08.531Z"
+      },
+      {
+        "name": "Luminary Seraph",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "archetype": "support",
+        "lore": "Portadora de una luz antigua que sostiene a los invocadores.",
+        "bestRank": "comun",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:48:50.580Z"
+      },
+      {
+        "name": "Infernal Juggernaut",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "archetype": "salvaje",
+        "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+        "bestRank": "epico",
+        "count": 2,
+        "lastSeenAt": "2026-04-04T23:47:56.295Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "golpeVoraz",
+        "name": "Golpe Voraz",
+        "type": "active",
+        "desc": "Inflige dano y cura parte del dano causado.",
+        "source": "Valzhar, Cosechador de la Luna Roja"
+      },
+      {
+        "id": "cosechaEscarlata",
+        "name": "Cosecha Escarlata",
+        "type": "active",
+        "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+        "source": "Valzhar, Cosechador de la Luna Roja"
+      },
+      {
+        "id": "juramentoDelBastion",
+        "name": "Juramento Del Bastion",
+        "type": "active",
+        "desc": "Refuerza la defensa y levanta un escudo para aguantar el intercambio.",
+        "source": "Ferron, Coloso del Ultimo Muro"
+      },
+      {
+        "id": "eclipseDebilitante",
+        "name": "Eclipse Debilitante",
+        "type": "active",
+        "desc": "Reduce el ataque rival durante 2 turnos.",
+        "source": "Nether Djinn"
+      },
+      {
+        "id": "bendicionDeSylvara",
+        "name": "Bendicion De Sylvara",
+        "type": "active",
+        "desc": "Invoca la bendicion del bosque para curar y fortalecer.",
+        "source": "Ironclad Colossus"
+      },
+      {
+        "id": "pielDeGuerra",
+        "name": "Piel De Guerra",
+        "type": "passive",
+        "desc": "Al defender, gana una guardia reforzada y un pequeno escudo.",
+        "source": "Ironclad Colossus"
+      },
+      {
+        "id": "mareaUmbria",
+        "name": "Marea Umbria",
+        "type": "active",
+        "desc": "Golpea con una ola oscura, quema al rival y marchita su ataque.",
+        "source": "Valzhar, Cosechador de la Luna Roja"
+      },
+      {
+        "id": "cazaImplacable",
+        "name": "Caza Implacable",
+        "type": "passive",
+        "desc": "Inflige mas dano a enemigos debilitados.",
+        "source": "Rhaziel, Colmillo del Horizonte"
+      },
+      {
+        "id": "sangreAbierta",
+        "name": "Sangre Abierta",
+        "type": "active",
+        "desc": "Aplica Sangrado durante 2 turnos.",
+        "source": "Noctyra, Matriarca de la Sombra Viva"
+      },
+      {
+        "id": "vendavalRasante",
+        "name": "Vendaval Rasante",
+        "type": "active",
+        "desc": "Embiste con un corte veloz y deja Expuesto al objetivo.",
+        "source": "Rhaziel, Colmillo del Horizonte"
+      },
+      {
+        "id": "colmilloDeRuina",
+        "name": "Colmillo De Ruina",
+        "type": "active",
+        "desc": "Perfora la guardia del objetivo y deja un sangrado constante.",
+        "source": "Valzhar, Cosechador de la Luna Roja"
+      },
+      {
+        "id": "coronaDelEclipse",
+        "name": "Corona Del Eclipse",
+        "type": "active",
+        "desc": "Golpe pesado que deja Expuesto al rival durante 2 turnos.",
+        "source": "Zarynth, Oraculo Del Cuarzo Partido"
+      },
+      {
+        "id": "renacerSolar",
+        "name": "Renacer Solar",
+        "type": "active",
+        "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos.",
+        "source": "Sunflare Phoenix"
+      },
+      {
+        "id": "resguardoDeRaiz",
+        "name": "Resguardo De Raiz",
+        "type": "active",
+        "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+        "source": "Ferron, Coloso del Ultimo Muro"
+      },
+      {
+        "id": "muroAstral",
+        "name": "Muro Astral",
+        "type": "active",
+        "desc": "Otorga un escudo por 2 turnos.",
+        "source": "Ferron, Coloso del Ultimo Muro"
+      },
+      {
+        "id": "caparazonEspinas",
+        "name": "Caparazon De Espinas",
+        "type": "passive",
+        "desc": "Refleja parte del dano recibido.",
+        "source": "Frostbite Warden"
+      },
+      {
+        "id": "fisuraArcana",
+        "name": "Fisura Arcana",
+        "type": "active",
+        "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+        "source": "Astral Chimera"
+      },
+      {
+        "id": "llamaAgonica",
+        "name": "Llama Agonica",
+        "type": "active",
+        "desc": "Quema al rival y castiga su recuperacion.",
+        "source": "Vulkris, Corazon Magmatico"
+      },
+      {
+        "id": "marcaDelVacio",
+        "name": "Marca Del Vacio",
+        "type": "active",
+        "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno.",
+        "source": "Xelthis, Aguja del Tiempo Verde"
+      },
+      {
+        "id": "letaniaDelAlba",
+        "name": "Letania Del Alba",
+        "type": "active",
+        "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+        "source": "Sanctum Herald"
+      },
+      {
+        "id": "selloDelTitan",
+        "name": "Sello Del Titan",
+        "type": "active",
+        "desc": "Marca la arena con un sello antiguo que fortalece tu defensa.",
+        "source": "Mareas Coronadas"
+      },
+      {
+        "id": "himnoDeGuerra",
+        "name": "Himno De Guerra",
+        "type": "active",
+        "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+        "source": "Storm Hydra"
+      },
+      {
+        "id": "decretoDeCeniza",
+        "name": "Decreto De Ceniza",
+        "type": "active",
+        "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa.",
+        "source": "Crystal Basilisk"
+      },
+      {
+        "id": "embateSalvaje",
+        "name": "Embate Salvaje",
+        "type": "active",
+        "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+        "source": "Vulkris, Corazon Magmatico"
+      },
+      {
+        "id": "sangreVoraz",
+        "name": "Sangre Voraz",
+        "type": "active",
+        "desc": "Aumenta 20% tu ataque durante 2 turnos propios.",
+        "source": "Verdant Guardian"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "ferron_ironwall",
+        "name": "Ferron, Coloso del Ultimo Muro",
+        "title": "Coloso del Ultimo Muro",
+        "archetype": "guardiana",
+        "race": "Titanes Ferricos",
+        "pantheon": "Sylvara",
+        "invocationView": "Ferron fue levantado para resistir la primera embestida del fin. Las criaturas ferricas lo siguen viendo como una orden: no retroceder, aunque el mundo ya haya caido.",
+        "image": "assets/creatures/armored_golem.png",
+        "rewardTitle": "Estandarte de Coloso del Ultimo Muro",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-23T23:52:18.631Z",
+        "lastDefeatedAt": "2026-04-23T23:52:18.631Z"
+      },
+      {
+        "bossId": "xelthis_chrono",
+        "name": "Xelthis, Aguja del Tiempo Verde",
+        "title": "Aguja del Tiempo Verde",
+        "archetype": "mistica",
+        "race": "Mantis Cronicas",
+        "pantheon": "Sylvara",
+        "invocationView": "Xelthis es la herida temporal de Sylvara hecha carne. Nuestras invocaciones sienten, al verla, que el tiempo mismo puede cortarse y sangrar.",
+        "image": "assets/creatures/Chrono_Mantis.png",
+        "rewardTitle": "Estandarte de Aguja del Tiempo Verde",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T06:15:18.468Z",
+        "lastDefeatedAt": "2026-04-10T06:15:18.468Z"
+      },
+      {
+        "bossId": "noctyra_umbra",
+        "name": "Noctyra, Matriarca de la Sombra Viva",
+        "title": "Matriarca de la Sombra Viva",
+        "archetype": "vampirica",
+        "race": "Acechantes Umbrios",
+        "pantheon": "Vorath",
+        "invocationView": "Noctyra enseño a los acechantes umbrios que la oscuridad tambien puede ser patria. Tras la caida, su garra ya no acecha para sobrevivir, sino para imponer silencio.",
+        "image": "assets/creatures/Umbra_Stalker.png",
+        "rewardTitle": "Estandarte de Matriarca de la Sombra Viva",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T06:11:50.968Z",
+        "lastDefeatedAt": "2026-04-10T06:11:50.968Z"
+      },
+      {
+        "bossId": "vulkris_magma",
+        "name": "Vulkris, Corazon Magmatico",
+        "title": "Corazon Magmatico",
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "pantheon": "Helion",
+        "invocationView": "Vulkris arde con la memoria de los crateres sagrados de Helion. Las invocaciones de fuego lo recuerdan como un heraldo del juicio, no como un monstruo.",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "rewardTitle": "Estandarte de Corazon Magmatico",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T06:08:50.750Z",
+        "lastDefeatedAt": "2026-04-10T06:08:50.750Z"
+      },
+      {
+        "bossId": "rhaziel_horizon",
+        "name": "Rhaziel, Colmillo del Horizonte",
+        "title": "Colmillo del Horizonte",
+        "archetype": "asaltante",
+        "race": "Fauces Etereas",
+        "pantheon": "Kairon",
+        "invocationView": "Rhaziel persigue la ultima linea del horizonte como si pudiera hallar un mundo sin ruina. Para nuestras invocaciones, es el instinto de caza vuelto destino.",
+        "image": "assets/creatures/aetherfang.png",
+        "rewardTitle": "Estandarte de Colmillo del Horizonte",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T06:05:51.567Z",
+        "lastDefeatedAt": "2026-04-10T06:05:51.567Z"
+      },
+      {
+        "bossId": "zarynth_quartz",
+        "name": "Zarynth, Oraculo Del Cuarzo Partido",
+        "title": "Oraculo del Cuarzo Partido",
+        "archetype": "mistica",
+        "race": "Basiliscos de Cuarzo",
+        "pantheon": "Sylvara",
+        "invocationView": "Zarynth vio demasiados futuros antes de la fractura. Las invocaciones de cuarzo creen que enloquecio al descubrir que en casi todos el mundo terminaba igual.",
+        "image": "assets/creatures/Crystal_Basilisk.png",
+        "rewardTitle": "Estandarte de Oraculo del Cuarzo Partido",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T06:04:05.474Z",
+        "lastDefeatedAt": "2026-04-10T06:04:05.474Z"
+      },
+      {
+        "bossId": "selkaith_glacier",
+        "name": "Selkaith, Vigia De La Catedral Glaciar",
+        "title": "Vigia de la Catedral Glaciar",
+        "archetype": "guardiana",
+        "race": "Centinelas del Hielo",
+        "pantheon": "Sylvara",
+        "invocationView": "Selkaith permanece en pie como si la catedral glaciar aun tuviera fieles. Las invocaciones del hielo lo veneran y lo temen, porque su guardia nunca acepto el final del mundo.",
+        "image": "assets/creatures/Frostbite_Warden.png",
+        "rewardTitle": "Estandarte de Vigia de la Catedral Glaciar",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T03:10:55.405Z",
+        "lastDefeatedAt": "2026-04-10T03:10:55.405Z"
+      },
+      {
+        "bossId": "morvath_forge",
+        "name": "Morvath, Senor De La Forja Herida",
+        "title": "Senor de la Forja Herida",
+        "archetype": "salvaje",
+        "race": "Juggernauts Infernos",
+        "pantheon": "Vorath",
+        "invocationView": "Morvath es visto por nuestras invocaciones como un yunque de guerra que rehuso enfriarse. Cada combate suyo suena como el eco de una civilizacion arrasada.",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "rewardTitle": "Estandarte de Senor de la Forja Herida",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:48:54.267Z",
+        "lastDefeatedAt": "2026-04-08T05:48:54.267Z"
+      },
+      {
+        "bossId": "thalmora_mareas",
+        "name": "Thalmora, Reina De Las Mareas Veladas",
+        "title": "Reina de las Mareas Veladas",
+        "archetype": "vampirica",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "rewardTitle": "Estandarte de Reina de las Mareas Veladas",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T23:15:01.413Z",
+        "lastDefeatedAt": "2026-04-04T23:15:01.413Z"
+      },
+      {
+        "bossId": "seraphel_ceniza",
+        "name": "Seraphel, Heraldo de la Ceniza",
+        "title": "Heraldo de la Ceniza",
+        "archetype": "mistica",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T23:12:17.095Z",
+        "lastDefeatedAt": "2026-04-04T23:12:17.095Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "name": "Velkaris, Archivista del Umbral",
+        "title": "Archivista del Umbral",
+        "archetype": "mistica",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T23:11:28.929Z",
+        "lastDefeatedAt": "2026-04-04T23:11:28.929Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T23:09:49.991Z",
+        "lastDefeatedAt": "2026-04-04T23:09:49.991Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "name": "Nyxar, Hambre de la Fosa",
+        "title": "Hambre de la Fosa",
+        "archetype": "vampirica",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T21:11:28.564Z",
+        "lastDefeatedAt": "2026-04-04T21:11:28.564Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "name": "Kaelith, Soberano del Vendaval",
+        "title": "Soberano del Vendaval",
+        "archetype": "salvaje",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T19:55:19.910Z",
+        "lastDefeatedAt": "2026-04-04T19:55:19.910Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "name": "Orophis, Bastion del Verdor",
+        "title": "Bastion del Verdor",
+        "archetype": "guardiana",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "defeats": 4,
+        "firstDefeatedAt": "2026-04-04T19:53:42.653Z",
+        "lastDefeatedAt": "2026-04-04T21:52:53.465Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "name": "Solara, Regente Cenital",
+        "title": "Regente Cenital",
+        "archetype": "support",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "defeats": 2,
+        "firstDefeatedAt": "2026-03-28T05:14:57.546Z",
+        "lastDefeatedAt": "2026-04-04T19:52:50.620Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "ferron_ironwall",
+        "rewardTitle": "Estandarte de Coloso del Ultimo Muro",
+        "unlockedAt": "2026-04-23T23:52:18.631Z"
+      },
+      {
+        "bossId": "xelthis_chrono",
+        "rewardTitle": "Estandarte de Aguja del Tiempo Verde",
+        "unlockedAt": "2026-04-10T06:15:18.468Z"
+      },
+      {
+        "bossId": "noctyra_umbra",
+        "rewardTitle": "Estandarte de Matriarca de la Sombra Viva",
+        "unlockedAt": "2026-04-10T06:11:50.968Z"
+      },
+      {
+        "bossId": "vulkris_magma",
+        "rewardTitle": "Estandarte de Corazon Magmatico",
+        "unlockedAt": "2026-04-10T06:08:50.750Z"
+      },
+      {
+        "bossId": "rhaziel_horizon",
+        "rewardTitle": "Estandarte de Colmillo del Horizonte",
+        "unlockedAt": "2026-04-10T06:05:51.567Z"
+      },
+      {
+        "bossId": "zarynth_quartz",
+        "rewardTitle": "Estandarte de Oraculo del Cuarzo Partido",
+        "unlockedAt": "2026-04-10T06:04:05.474Z"
+      },
+      {
+        "bossId": "selkaith_glacier",
+        "rewardTitle": "Estandarte de Vigia de la Catedral Glaciar",
+        "unlockedAt": "2026-04-10T03:10:55.405Z"
+      },
+      {
+        "bossId": "morvath_forge",
+        "rewardTitle": "Estandarte de Senor de la Forja Herida",
+        "unlockedAt": "2026-04-08T05:48:54.267Z"
+      },
+      {
+        "bossId": "thalmora_mareas",
+        "rewardTitle": "Estandarte de Reina de las Mareas Veladas",
+        "unlockedAt": "2026-04-04T23:15:01.413Z"
+      },
+      {
+        "bossId": "seraphel_ceniza",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "unlockedAt": "2026-04-04T23:12:17.095Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "unlockedAt": "2026-04-04T23:11:28.929Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-04T23:09:49.991Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "unlockedAt": "2026-04-04T21:11:28.564Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "unlockedAt": "2026-04-04T19:55:19.910Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "unlockedAt": "2026-04-04T19:53:42.653Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "unlockedAt": "2026-03-28T05:14:57.546Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "xelthis_chrono",
+        "unlockedAt": "2026-04-10T06:15:18.468Z",
+        "relicId": "relic_chrono_spine",
+        "relicName": "Espina Del Reloj Quebrado",
+        "attunement": "Sylvara",
+        "effectText": "Vestigio de la mantis que corto segundos del aire.",
+        "lore": "Vibra con un pulso desigual. A veces parece adelantarse al golpe antes de que ocurra.",
+        "combatEffects": [
+          {
+            "stat": "defenseFlat",
+            "amount": 2,
+            "durationTurns": 99
+          },
+          {
+            "stat": "attackPct",
+            "amount": 0.05,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "noctyra_umbra",
+        "unlockedAt": "2026-04-10T06:11:50.968Z",
+        "relicId": "relic_umbra_claw",
+        "relicName": "Garra Del Eclipse Negro",
+        "attunement": "Vorath",
+        "effectText": "Rastro de una cazadora que aprendio a abrir heridas en la oscuridad.",
+        "lore": "La sombra bajo la garra nunca permanece quieta. Siempre parece buscar un nuevo cuello.",
+        "combatEffects": [
+          {
+            "stat": "attackPct",
+            "amount": 0.08,
+            "durationTurns": 99
+          },
+          {
+            "stat": "regenTurn",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "vulkris_magma",
+        "unlockedAt": "2026-04-10T06:08:50.750Z",
+        "relicId": "relic_magma_scale",
+        "relicName": "Escama Del Crater Sagrado",
+        "attunement": "Helion",
+        "effectText": "Escama de un draco que ardia incluso despues del juicio final.",
+        "lore": "Guarda calor como una brasa sellada en roca. Alimenta a quien decide pelear sin titubear.",
+        "combatEffects": [
+          {
+            "stat": "attackFlat",
+            "amount": 2,
+            "durationTurns": 99
+          },
+          {
+            "stat": "shield",
+            "amount": 8,
+            "durationTurns": 2
+          }
+        ]
+      },
+      {
+        "bossId": "rhaziel_horizon",
+        "unlockedAt": "2026-04-10T06:05:51.567Z",
+        "relicId": "relic_horizon_fang",
+        "relicName": "Colmillo Del Horizonte",
+        "attunement": "Kairon",
+        "effectText": "Trofeo del cazador que abre la primera herida del cielo.",
+        "lore": "Su filo silba aun cuando no hay viento, como si buscara una presa mas alla del borde del mundo.",
+        "combatEffects": [
+          {
+            "stat": "attackFlat",
+            "amount": 3,
+            "durationTurns": 99
+          },
+          {
+            "stat": "attackPct",
+            "amount": 0.04,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "zarynth_quartz",
+        "unlockedAt": "2026-04-10T06:04:05.474Z",
+        "relicId": "relic_quartz_iris",
+        "relicName": "Iris De Cuarzo Partido",
+        "attunement": "Sylvara",
+        "effectText": "Fragmento del oraculo basilisco que vio la fractura antes que nadie.",
+        "lore": "Refleja un mundo roto en infinitas caras, como si nunca aceptara un solo futuro.",
+        "combatEffects": [
+          {
+            "stat": "regenTurn",
+            "amount": 2,
+            "durationTurns": 99
+          },
+          {
+            "stat": "attackPct",
+            "amount": 0.06,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "selkaith_glacier",
+        "unlockedAt": "2026-04-10T03:10:55.405Z",
+        "relicId": "relic_glacier_eye",
+        "relicName": "Ojo De La Escarcha Vigia",
+        "attunement": "Sylvara",
+        "effectText": "Cristal helado del centinela que guardo el ultimo umbral de invierno.",
+        "lore": "Dentro de su cuarzo tiemblan vitrales de hielo y plegarias congeladas.",
+        "combatEffects": [
+          {
+            "stat": "defenseFlat",
+            "amount": 3,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "morvath_forge",
+        "unlockedAt": "2026-04-08T05:48:54.267Z",
+        "relicId": "relic_forge_heart",
+        "relicName": "Corazon De La Forja Herida",
+        "attunement": "Vorath",
+        "effectText": "Nucleo ardiente del apostol que marcho sobre hierro y brasas.",
+        "lore": "Golpea aun sin martillo, como si recordara el ruido de una guerra que nunca se apago.",
+        "combatEffects": [
+          {
+            "stat": "attackFlat",
+            "amount": 4,
+            "durationTurns": 99
+          }
+        ]
+      }
+    ],
+    "divinityFragments": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T06:41:18.083Z",
+    "lastSeenAt": "2026-04-23T23:59:06.253Z"
+  },
+  "acct_d27168ed36612df6": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T16:00:04.297Z",
+    "createdAt": "2026-03-27T16:00:03.972Z",
+    "lastSeenAt": "2026-03-27T16:00:04.297Z"
+  },
+  "acct_5984c69f07936a29": {
+    "name": "Sesion",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T16:11:48.942Z",
+    "createdAt": "2026-03-27T16:11:48.439Z",
+    "lastSeenAt": "2026-03-27T16:11:48.942Z"
+  },
+  "acct_ed82f39eef4aae83": {
+    "name": "Sesion",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T16:21:59.419Z",
+    "createdAt": "2026-03-27T16:21:59.198Z",
+    "lastSeenAt": "2026-03-27T16:21:59.419Z"
+  },
+  "acct_21e1e342b1dddcb4": {
+    "name": "El Creador",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": true,
+    "deletedAt": "2026-03-27T17:15:11.755Z",
+    "createdAt": "2026-03-27T17:14:33.558Z",
+    "lastSeenAt": "2026-03-27T17:15:11.755Z"
+  },
+  "player_zswhp5fx5k": {
+    "name": "Invocador",
+    "sessionToken": "3cd3b962e3a13465cf4e484f1ce2a39560f8",
+    "keys": 3,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T17:15:13.708Z",
+    "lastSeenAt": "2026-03-27T17:15:13.708Z"
+  },
+  "acct_334c98ddee120fda": {
+    "name": "GameMaster",
+    "sessionToken": "9b0687878212208c5ce2e5c12674db92a717",
+    "keys": 28,
+    "gold": 744,
+    "essence": 7,
+    "wins": 15,
+    "losses": 0,
+    "bossWins": 15,
+    "creature": {
+      "name": "Astral Chimera",
+      "image": "assets/creatures/Astral_Chimera.png",
+      "vida": 139,
+      "ataque": 54,
+      "defensa": 18,
+      "regen": 4,
+      "lore": "",
+      "rank": "epico",
+      "vidaMax": 250,
+      "abilities": [
+        {
+          "id": "cataclismo",
+          "name": "Cataclismo",
+          "type": "active",
+          "cooldownTurns": 5,
+          "damageMultiplier": 2.1,
+          "desc": "Gran danio, largo cooldown."
+        }
+      ],
+      "hp": 139,
+      "atk": 54,
+      "def": 18,
+      "_cooldowns": {
+        "cataclismo": 4
+      },
+      "eternalId": "0e400c6628575ecd1d38"
+    },
+    "consumables": {
+      "star_sigil": 5,
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus",
+      "eclipse_velvet",
+      "verdant_sanctum",
+      "abyssal_throne"
+    ],
+    "equippedBackgroundId": "eclipse_velvet",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "relic_storm_fang",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [
+      "kaelith_vendaval",
+      "nyxar_abyss",
+      "orophis_bastion",
+      "velkaris_umbral",
+      "seraphel_ceniza",
+      "thalmora_mareas"
+    ],
+    "claimedApostleMilestones": [
+      "apostle_2",
+      "apostle_4",
+      "apostle_6"
+    ],
+    "preservedCreatures": [
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "vida": 185,
+        "ataque": 36,
+        "defensa": 14,
+        "regen": 3,
+        "archetype": "mistica",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "signatureAbilityId": "fisuraArcana",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "rank": "legendario",
+        "vidaMax": 185,
+        "abilities": [
+          {
+            "id": "fisuraArcana",
+            "name": "Fisura Arcana",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "damageMultiplier": 1.05,
+            "durationTurns": 2,
+            "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "hp": 185,
+        "atk": 36,
+        "def": 14,
+        "_cooldowns": {},
+        "eternalId": "fd3e45493fbaa24bdb48"
+      },
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "vida": 250,
+        "ataque": 54,
+        "defensa": 18,
+        "regen": 4,
+        "lore": "",
+        "rank": "epico",
+        "vidaMax": 250,
+        "abilities": [
+          {
+            "id": "cataclismo",
+            "name": "Cataclismo",
+            "type": "active",
+            "cooldownTurns": 5,
+            "damageMultiplier": 2.1,
+            "desc": "Gran danio, largo cooldown."
+          }
+        ],
+        "hp": 250,
+        "atk": 54,
+        "def": 18,
+        "_cooldowns": {},
+        "eternalId": "0e400c6628575ecd1d38"
+      }
+    ],
+    "history": [
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Thalmora, Reina De Las Mareas Veladas y obtuviste 146 de oro.",
+        "tone": "good",
+        "at": "2026-04-09T08:04:38.284Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Corona De Marea Velada.",
+        "tone": "good",
+        "at": "2026-04-09T08:04:38.281Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Sigilo De Resonancia como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-09T08:04:38.280Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-09T08:04:38.279Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Reina de las Mareas Veladas.",
+        "tone": "good",
+        "at": "2026-04-09T08:04:38.278Z"
+      },
+      {
+        "title": "Fondo equipado",
+        "detail": "Ahora usas el fondo Terciopelo del Eclipse.",
+        "tone": "neutral",
+        "at": "2026-04-09T06:59:11.640Z"
+      },
+      {
+        "title": "Fondo equipado",
+        "detail": "Ahora usas el fondo Trono Abisal.",
+        "tone": "neutral",
+        "at": "2026-04-09T06:58:55.937Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Fondo: Trono Abisal por 110 de oro.",
+        "tone": "good",
+        "at": "2026-04-09T06:58:54.370Z"
+      },
+      {
+        "title": "Fondo equipado",
+        "detail": "Ahora usas el fondo Santuario Verdor.",
+        "tone": "neutral",
+        "at": "2026-04-09T06:58:48.041Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Fondo: Santuario Verdor por 90 de oro.",
+        "tone": "good",
+        "at": "2026-04-09T06:58:46.965Z"
+      },
+      {
+        "title": "Fondo equipado",
+        "detail": "Ahora usas el fondo Terciopelo del Eclipse.",
+        "tone": "neutral",
+        "at": "2026-04-09T06:07:59.619Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Fondo: Terciopelo del Eclipse por 90 de oro.",
+        "tone": "good",
+        "at": "2026-04-09T06:07:58.179Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Rito de Restauracion por 30 de oro.",
+        "tone": "good",
+        "at": "2026-04-08T05:22:20.404Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Seraphel, Heraldo de la Ceniza y obtuviste 132 de oro.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Edicto De Ceniza.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Sigilo De Resonancia como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Heraldo de la Ceniza.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Rito de Restauracion por 30 de oro.",
+        "tone": "good",
+        "at": "2026-04-08T05:21:21.686Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Velkaris, Archivista del Umbral y obtuviste 118 de oro.",
+        "tone": "good",
+        "at": "2026-04-08T05:20:21.363Z"
+      },
+      {
+        "title": "Recompensa de tramo",
+        "detail": "Tramo III: recibiste 180 de oro, 2 llave(s) y 1 esencia(s).",
+        "tone": "good",
+        "at": "2026-04-08T05:20:21.363Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Pagina Del Umbral.",
+        "tone": "good",
+        "at": "2026-04-08T05:20:21.363Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Sigilo De Resonancia como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-08T05:20:21.363Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-08T05:20:21.363Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "archetype": "mistica",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "primaryAbility": {
+          "id": "fisuraArcana",
+          "name": "Fisura Arcana",
+          "type": "active",
+          "desc": "Causa dano y deja Expuesto al rival durante 2 turnos."
+        },
+        "bestRank": "legendario",
+        "count": 1,
+        "lastSeenAt": "2026-04-06T00:11:17.788Z"
+      },
+      {
+        "name": "Storm Hydra",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "archetype": "salvaje",
+        "race": "Hidras Tempestivas",
+        "legacy": "Kairon",
+        "lore": "Cada cabeza ruge con mas fuerza cuando la tormenta se intensifica.",
+        "primaryAbility": {
+          "id": "himnoDeGuerra",
+          "name": "Himno De Guerra",
+          "type": "active",
+          "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-06T00:11:13.109Z"
+      },
+      {
+        "name": "Ashen Hierophant",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "archetype": "mistica",
+        "race": "Hierofantes de Ceniza",
+        "legacy": "Vorath",
+        "lore": "Oficia ritos de ceniza para recordar a una raza borrada por el abismo.",
+        "primaryAbility": {
+          "id": "decretoDeCeniza",
+          "name": "Decreto De Ceniza",
+          "type": "active",
+          "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-06T00:11:10.245Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "colmilloDeRuina",
+        "name": "Colmillo De Ruina",
+        "type": "active",
+        "desc": "Perfora la guardia del objetivo y deja un sangrado constante.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "selloDelTitan",
+        "name": "Sello Del Titan",
+        "type": "active",
+        "desc": "Marca la arena con un sello antiguo que fortalece tu defensa.",
+        "source": "Seraphel, Heraldo de la Ceniza"
+      },
+      {
+        "id": "letaniaDelAlba",
+        "name": "Letania Del Alba",
+        "type": "active",
+        "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+        "source": "Seraphel, Heraldo de la Ceniza"
+      },
+      {
+        "id": "juramentoDelBastion",
+        "name": "Juramento Del Bastion",
+        "type": "active",
+        "desc": "Refuerza la defensa y levanta un escudo para aguantar el intercambio.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "marcaDelVacio",
+        "name": "Marca Del Vacio",
+        "type": "active",
+        "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno.",
+        "source": "Seraphel, Heraldo de la Ceniza"
+      },
+      {
+        "id": "mareaUmbria",
+        "name": "Marea Umbria",
+        "type": "active",
+        "desc": "Golpea con una ola oscura, quema al rival y marchita su ataque.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "pielDeGuerra",
+        "name": "Piel De Guerra",
+        "type": "passive",
+        "desc": "Al defender, gana una guardia reforzada y un pequeno escudo.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "muroAstral",
+        "name": "Muro Astral",
+        "type": "active",
+        "desc": "Otorga un escudo por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "pactoLuminar",
+        "name": "Pacto Luminar",
+        "type": "active",
+        "desc": "Restaura vida propia y debilita el ataque rival por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "resguardoDeRaiz",
+        "name": "Resguardo De Raiz",
+        "type": "active",
+        "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "rabiaPrimordial",
+        "name": "Rabia Primordial",
+        "type": "passive",
+        "desc": "Gana ataque cuando cae por debajo del 40% de vida.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "mareaVoraz",
+        "name": "Marea Voraz",
+        "type": "active",
+        "desc": "Desgarra al rival, roba vida y aplica Sangrado.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "golpeVoraz",
+        "name": "Golpe Voraz",
+        "type": "active",
+        "desc": "Inflige dano y cura parte del dano causado.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "cataclismo",
+        "name": "Cataclismo",
+        "type": "active",
+        "desc": "Gran danio, largo cooldown.",
+        "source": "Astral Chimera"
+      },
+      {
+        "id": "cazaImplacable",
+        "name": "Caza Implacable",
+        "type": "passive",
+        "desc": "Inflige mas dano a enemigos debilitados.",
+        "source": "Kaelith, Soberano del Vendaval"
+      },
+      {
+        "id": "sangreAbierta",
+        "name": "Sangre Abierta",
+        "type": "active",
+        "desc": "Aplica Sangrado durante 2 turnos.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "embateSalvaje",
+        "name": "Embate Salvaje",
+        "type": "active",
+        "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+        "source": "Kaelith, Soberano del Vendaval"
+      },
+      {
+        "id": "vendavalRasante",
+        "name": "Vendaval Rasante",
+        "type": "active",
+        "desc": "Embiste con un corte veloz y deja Expuesto al objetivo.",
+        "source": "Kaelith, Soberano del Vendaval"
+      },
+      {
+        "id": "fisuraArcana",
+        "name": "Fisura Arcana",
+        "type": "active",
+        "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+        "source": "Astral Chimera"
+      },
+      {
+        "id": "himnoDeGuerra",
+        "name": "Himno De Guerra",
+        "type": "active",
+        "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+        "source": "Storm Hydra"
+      },
+      {
+        "id": "decretoDeCeniza",
+        "name": "Decreto De Ceniza",
+        "type": "active",
+        "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa.",
+        "source": "Seraphel, Heraldo de la Ceniza"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "thalmora_mareas",
+        "name": "Thalmora, Reina De Las Mareas Veladas",
+        "title": "Reina de las Mareas Veladas",
+        "archetype": "vampirica",
+        "race": "Mareas Coronadas",
+        "pantheon": "Nerea",
+        "invocationView": "Las criaturas de marea susurran que Thalmora era una reina antes del silencio profundo. Desde la caida, su trono exige naufragios para sostenerse.",
+        "image": "assets/creatures/thalmora_mareas.png",
+        "rewardTitle": "Estandarte de Reina de las Mareas Veladas",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-09T08:04:38.276Z",
+        "lastDefeatedAt": "2026-04-09T08:04:38.276Z"
+      },
+      {
+        "bossId": "seraphel_ceniza",
+        "name": "Seraphel, Heraldo de la Ceniza",
+        "title": "Heraldo de la Ceniza",
+        "archetype": "mistica",
+        "race": "Hierofantes de Ceniza",
+        "pantheon": "Vorath",
+        "invocationView": "Los restos de la raza extinguida sobreviven en la voz de Seraphel. Toda invocacion que lo enfrenta siente que combate contra un funeral que nunca pudo terminar.",
+        "image": "assets/creatures/seraphel_ceniza.png",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:21:52.604Z",
+        "lastDefeatedAt": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "name": "Velkaris, Archivista del Umbral",
+        "title": "Archivista del Umbral",
+        "archetype": "mistica",
+        "race": "Djinn del Umbral",
+        "pantheon": "Vorath",
+        "invocationView": "Velkaris guarda nombres, pactos y derrotas que nuestras invocaciones preferirian olvidar. En su archivo, la caida del mundo ya no es tragedia: es material de estudio.",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:20:21.362Z",
+        "lastDefeatedAt": "2026-04-08T05:20:21.362Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "name": "Orophis, Bastion del Verdor",
+        "title": "Bastion del Verdor",
+        "archetype": "guardiana",
+        "race": "Colosos del Verdor",
+        "pantheon": "Sylvara",
+        "invocationView": "Orophis es recordado por las invocaciones del verdor como una muralla noble. Ahora sus raices aprietan la arena como si quisiera sepultar con ella el error de los dioses.",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:19:43.453Z",
+        "lastDefeatedAt": "2026-04-08T05:19:43.453Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "name": "Nyxar, Hambre de la Fosa",
+        "title": "Hambre de la Fosa",
+        "archetype": "vampirica",
+        "race": "Leviatanes de la Fosa",
+        "pantheon": "Vorath",
+        "invocationView": "Las invocaciones del abismo cuentan que Nyxar no nacio maldito, sino hambriento. Cuando el mundo cayo, fue el primero en descubrir que la ruina tambien alimenta.",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:19:03.216Z",
+        "lastDefeatedAt": "2026-04-08T05:19:03.216Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "name": "Kaelith, Soberano del Vendaval",
+        "title": "Soberano del Vendaval",
+        "archetype": "salvaje",
+        "race": "Hidras Tempestivas",
+        "pantheon": "Kairon",
+        "invocationView": "Los cazadores invocados narran que Kaelith fue un rey de rutas abiertas. Tras la caida, su vendaval ya no guia: despedaza todo lo que duda.",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-08T05:17:30.753Z",
+        "lastDefeatedAt": "2026-04-08T05:17:30.753Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T19:50:53.249Z",
+        "lastDefeatedAt": "2026-04-04T19:50:53.249Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "name": "Solara, Regente Cenital",
+        "title": "Regente Cenital",
+        "archetype": "support",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "defeats": 5,
+        "firstDefeatedAt": "2026-03-28T01:29:37.646Z",
+        "lastDefeatedAt": "2026-04-04T21:55:08.813Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "thalmora_mareas",
+        "rewardTitle": "Estandarte de Reina de las Mareas Veladas",
+        "unlockedAt": "2026-04-09T08:04:38.276Z"
+      },
+      {
+        "bossId": "seraphel_ceniza",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "unlockedAt": "2026-04-08T05:21:52.604Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "unlockedAt": "2026-04-08T05:20:21.362Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "unlockedAt": "2026-04-08T05:19:43.453Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "unlockedAt": "2026-04-08T05:19:03.216Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "unlockedAt": "2026-04-08T05:17:30.753Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-04T19:50:53.249Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "unlockedAt": "2026-03-28T01:29:37.646Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "thalmora_mareas",
+        "unlockedAt": "2026-04-09T08:04:38.276Z",
+        "relicId": "relic_tide_crown",
+        "relicName": "Corona De Marea Velada",
+        "attunement": "Nerea",
+        "effectText": "Simbolo de soberania de la Reina de las Mareas Veladas.",
+        "lore": "Cada gota suspendida en su metal cuenta una traicion distinta del oceano abisal.",
+        "combatEffects": [
+          {
+            "stat": "shield",
+            "amount": 8,
+            "durationTurns": 2
+          },
+          {
+            "stat": "attackFlat",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "seraphel_ceniza",
+        "unlockedAt": "2026-04-08T05:21:52.604Z",
+        "relicId": "relic_ashen_edict",
+        "relicName": "Edicto De Ceniza",
+        "attunement": "Vorath",
+        "effectText": "Acta funeraria de una raza consumida por el abismo.",
+        "lore": "La ceniza no se desprende. Parece insistir en que alguien recuerde lo borrado.",
+        "combatEffects": [
+          {
+            "stat": "attackPct",
+            "amount": 0.08,
+            "durationTurns": 99
+          },
+          {
+            "stat": "defenseFlat",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "unlockedAt": "2026-04-08T05:20:21.362Z",
+        "relicId": "relic_umbral_page",
+        "relicName": "Pagina Del Umbral",
+        "attunement": "Vorath",
+        "effectText": "Hoja arrancada del archivo prohibido de Velkaris.",
+        "lore": "Las runas cambian de orden cada vez que alguien pronuncia el nombre de un dios caido.",
+        "combatEffects": [
+          {
+            "stat": "defenseFlat",
+            "amount": 1,
+            "durationTurns": 99
+          },
+          {
+            "stat": "regenTurn",
+            "amount": 2,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "orophis_bastion",
+        "unlockedAt": "2026-04-08T05:19:43.453Z",
+        "relicId": "relic_savia_core",
+        "relicName": "Nucleo De Savia Ancestral",
+        "attunement": "Sylvara",
+        "effectText": "Reliquia viva del Bastion del Verdor.",
+        "lore": "Una savia mineralizada que aun respira con la memoria de bosques extinguidos.",
+        "combatEffects": [
+          {
+            "stat": "shield",
+            "amount": 12,
+            "durationTurns": 2
+          }
+        ]
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "unlockedAt": "2026-04-08T05:19:03.216Z",
+        "relicId": "relic_fosa_heart",
+        "relicName": "Corazon De La Fosa",
+        "attunement": "Vorath",
+        "effectText": "Nucleo oscuro de la Hambre de la Fosa.",
+        "lore": "Late como si el abismo siguiera hambriento y quisiera volver a tragarse el mundo.",
+        "combatEffects": [
+          {
+            "stat": "attackFlat",
+            "amount": 2,
+            "durationTurns": 99
+          },
+          {
+            "stat": "regenTurn",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "unlockedAt": "2026-04-08T05:17:30.753Z",
+        "relicId": "relic_storm_fang",
+        "relicName": "Colmillo De Tempestad",
+        "attunement": "Kairon",
+        "effectText": "Trofeo del Soberano del Vendaval, simbolo de velocidad y remate.",
+        "lore": "Cruje con electricidad residual y con el eco de mil cacerias abiertas en la tormenta.",
+        "combatEffects": [
+          {
+            "stat": "attackPct",
+            "amount": 0.12,
+            "durationTurns": 99
+          }
+        ]
+      }
+    ],
+    "divinityFragments": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T17:16:17.110Z",
+    "lastSeenAt": "2026-04-10T04:55:05.158Z"
+  },
+  "player_fzf56l7amd": {
+    "name": "Invocador",
+    "sessionToken": "09cf4ed1b07e51c0cc94d3ef8ea5687e4094",
+    "keys": 1,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": {
+      "name": "Chrono Mantis",
+      "image": "assets/creatures/Chrono_Mantis.png",
+      "vida": 85,
+      "ataque": 18,
+      "defensa": 6,
+      "regen": 3,
+      "lore": "",
+      "rank": "comun",
+      "vidaMax": 85,
+      "abilities": []
+    },
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T17:56:49.444Z",
+    "lastSeenAt": "2026-03-27T17:56:52.071Z"
+  },
+  "player_morsxaan3e": {
+    "name": "Invocador",
+    "sessionToken": "f95a44669ca2a8d390b43752b88d15e9aa73",
+    "keys": 2,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": {
+      "name": "Frostbite Warden",
+      "image": "assets/creatures/Frostbite_Warden.png",
+      "vida": 110,
+      "ataque": 17,
+      "defensa": 10,
+      "regen": 2,
+      "lore": "",
+      "rank": "comun",
+      "vidaMax": 110,
+      "abilities": []
+    },
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-27T17:59:04.145Z",
+    "lastSeenAt": "2026-03-27T17:59:05.968Z"
+  },
+  "player_0cajp8l451": {
+    "name": "Invocador",
+    "sessionToken": "",
+    "keys": 0,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": null,
+    "history": [
+      {
+        "title": "Jefe derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-03-28T01:35:09.692Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-03-28T01:35:09.692Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Pyroclast Drake (raro).",
+        "tone": "good",
+        "at": "2026-03-28T01:31:55.150Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-03-28T01:31:55.150Z"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-03-28T01:35:09.692Z",
+        "lastDefeatedAt": "2026-03-28T01:35:09.692Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-03-28T01:35:09.692Z"
+      }
+    ],
+    "deleted": true,
+    "deletedAt": "2026-03-28T05:14:06.827Z",
+    "createdAt": "2026-03-28T01:31:44.814Z",
+    "lastSeenAt": "2026-03-28T05:14:06.827Z"
+  },
+  "player_pbduvoyczh": {
+    "name": "Invocador",
+    "sessionToken": "e26f95f48fae687fc7a2687e147fb7691df5",
+    "keys": 2,
+    "gold": 36,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": {
+      "name": "Bloodmoon Reaper",
+      "image": "assets/creatures/Bloodmoon_Reaper.png",
+      "vida": 48,
+      "ataque": 26,
+      "defensa": 8,
+      "regen": 1,
+      "archetype": "vampirica",
+      "signatureAbilityId": "cosechaEscarlata",
+      "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+      "rank": "pocoComun",
+      "vidaMax": 102,
+      "abilities": [
+        {
+          "id": "cosechaEscarlata",
+          "name": "Cosecha Escarlata",
+          "type": "active",
+          "archetypes": [
+            "vampirica"
+          ],
+          "cooldownTurns": 4,
+          "damageMultiplier": 1.08,
+          "lifestealPct": 0.3,
+          "durationTurns": 2,
+          "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+          "effects": [
+            {
+              "target": "enemy",
+              "stat": "burn",
+              "amount": 4,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ],
+      "hp": 48,
+      "atk": 26,
+      "def": 8,
+      "_cooldowns": {
+        "cosechaEscarlata": 2
+      }
+    },
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse y obtuviste 36 de oro.",
+        "tone": "good",
+        "at": "2026-04-04T21:18:35.782Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-04T21:18:35.782Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-04T21:18:35.782Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Bloodmoon Reaper (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-04T21:17:09.679Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Crystal Basilisk (comun).",
+        "tone": "good",
+        "at": "2026-04-04T21:17:02.544Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Titan Mossbeard (comun).",
+        "tone": "good",
+        "at": "2026-04-04T21:16:56.633Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Bloodmoon Reaper",
+        "image": "assets/creatures/Bloodmoon_Reaper.png",
+        "archetype": "vampirica",
+        "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T21:17:09.679Z"
+      },
+      {
+        "name": "Crystal Basilisk",
+        "image": "assets/creatures/Crystal_Basilisk.png",
+        "archetype": "mistica",
+        "lore": "Su mirada fractura defensas y deja grietas en la realidad.",
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T21:17:02.544Z"
+      },
+      {
+        "name": "Titan Mossbeard",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "archetype": "guardiana",
+        "lore": "Un coloso de bosque que resiste como una muralla viviente.",
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T21:16:56.633Z"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T21:18:35.782Z",
+        "lastDefeatedAt": "2026-04-04T21:18:35.782Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-04T21:18:35.782Z"
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-03-28T05:14:10.035Z",
+    "lastSeenAt": "2026-04-04T21:18:35.782Z"
+  },
+  "acct_0d16de84e354b6e9": {
+    "name": "Kain",
+    "sessionToken": "71ed9ef9fe63805910e279206e8d83b3fa2b",
+    "keys": 0,
+    "gold": 0,
+    "essence": 6,
+    "wins": 7,
+    "losses": 9,
+    "bossWins": 7,
+    "creature": {
+      "name": "Infernal Juggernaut",
+      "image": "assets/creatures/Infernal_Juggernaut.png",
+      "vida": 231,
+      "ataque": 38,
+      "defensa": 18,
+      "regen": 2,
+      "archetype": "salvaje",
+      "race": "Juggernauts Infernos",
+      "legacy": "Solar Corrupto",
+      "signatureAbilityId": "embateSalvaje",
+      "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+      "rank": "legendario",
+      "vidaMax": 231,
+      "abilities": [
+        {
+          "id": "embateSalvaje",
+          "name": "Embate Salvaje",
+          "type": "active",
+          "archetypes": [
+            "salvaje"
+          ],
+          "cooldownTurns": 4,
+          "damageMultiplier": 1.22,
+          "durationTurns": 2,
+          "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+          "effects": [
+            {
+              "target": "self",
+              "stat": "attackFlat",
+              "amount": 4,
+              "durationTurns": 2
+            }
+          ]
+        },
+        {
+          "id": "himnoDeGuerra",
+          "name": "Himno De Guerra",
+          "type": "active",
+          "archetypes": [
+            "support",
+            "salvaje"
+          ],
+          "cooldownTurns": 4,
+          "durationTurns": 2,
+          "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+          "effects": [
+            {
+              "target": "self",
+              "stat": "attackFlat",
+              "amount": 3,
+              "durationTurns": 2
+            },
+            {
+              "target": "self",
+              "stat": "regenTurn",
+              "amount": 3,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ],
+      "hp": 231,
+      "atk": 38,
+      "def": 18,
+      "_cooldowns": {},
+      "eternalId": "d0ca7e5d2af7544579d5"
+    },
+    "consumables": {
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus",
+      "verdant_sanctum"
+    ],
+    "equippedBackgroundId": "verdant_sanctum",
+    "unlockedCardFrames": [
+      "default_frame",
+      "solar_frame",
+      "abyss_frame"
+    ],
+    "equippedCardFrameId": "abyss_frame",
+    "equippedRelicId": "relic_ashen_edict",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [
+      "orophis_bastion",
+      "velkaris_umbral",
+      "seraphel_ceniza"
+    ],
+    "claimedApostleMilestones": [
+      "apostle_2",
+      "apostle_4",
+      "apostle_6"
+    ],
+    "preservedCreatures": [
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "vida": 185,
+        "ataque": 36,
+        "defensa": 14,
+        "regen": 3,
+        "archetype": "mistica",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "signatureAbilityId": "fisuraArcana",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "rank": "legendario",
+        "vidaMax": 185,
+        "abilities": [
+          {
+            "id": "fisuraArcana",
+            "name": "Fisura Arcana",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 3,
+            "damageMultiplier": 1.05,
+            "durationTurns": 2,
+            "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -4,
+                "durationTurns": 2
+              }
+            ]
+          },
+          {
+            "id": "torbellinoHelado",
+            "name": "Torbellino Helado",
+            "type": "active",
+            "archetypes": [
+              "mistica",
+              "asaltante"
+            ],
+            "cooldownTurns": 4,
+            "damageMultiplier": 1.08,
+            "durationTurns": 2,
+            "desc": "Un remolino de hielo que ralentiza y daña.",
+            "effects": [
+              {
+                "target": "enemy",
+                "stat": "defenseFlat",
+                "amount": -3,
+                "durationTurns": 2
+              },
+              {
+                "target": "enemy",
+                "stat": "burn",
+                "amount": 4,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "eternalId": "e7d0de88433baff4ee7f",
+        "hp": 185,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Ironclad Colossus",
+        "image": "assets/creatures/armored_golem.png",
+        "vida": 266,
+        "ataque": 20,
+        "defensa": 29,
+        "regen": 3,
+        "archetype": "guardiana",
+        "race": "Titanes Ferricos",
+        "legacy": "Terraverde",
+        "signatureAbilityId": "pielDeGuerra",
+        "lore": "Forjado para no caer, incluso cuando el mundo se parte.",
+        "rank": "legendario",
+        "vidaMax": 266,
+        "abilities": [
+          {
+            "id": "pielDeGuerra",
+            "name": "Piel De Guerra",
+            "type": "passive",
+            "archetypes": [
+              "guardiana"
+            ],
+            "desc": "Al defender, gana una guardia reforzada y un pequeno escudo."
+          }
+        ],
+        "eternalId": "2d9badb3ad46159f9ed8",
+        "hp": 266,
+        "_cooldowns": {}
+      },
+      {
+        "name": "Infernal Juggernaut",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "vida": 231,
+        "ataque": 38,
+        "defensa": 18,
+        "regen": 2,
+        "archetype": "salvaje",
+        "race": "Juggernauts Infernos",
+        "legacy": "Solar Corrupto",
+        "signatureAbilityId": "embateSalvaje",
+        "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+        "rank": "legendario",
+        "vidaMax": 231,
+        "abilities": [
+          {
+            "id": "embateSalvaje",
+            "name": "Embate Salvaje",
+            "type": "active",
+            "archetypes": [
+              "salvaje"
+            ],
+            "cooldownTurns": 4,
+            "damageMultiplier": 1.22,
+            "durationTurns": 2,
+            "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "attackFlat",
+                "amount": 4,
+                "durationTurns": 2
+              }
+            ]
+          },
+          {
+            "id": "himnoDeGuerra",
+            "name": "Himno De Guerra",
+            "type": "active",
+            "archetypes": [
+              "support",
+              "salvaje"
+            ],
+            "cooldownTurns": 4,
+            "durationTurns": 2,
+            "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "attackFlat",
+                "amount": 3,
+                "durationTurns": 2
+              },
+              {
+                "target": "self",
+                "stat": "regenTurn",
+                "amount": 3,
+                "durationTurns": 2
+              }
+            ]
+          }
+        ],
+        "hp": 231,
+        "atk": 38,
+        "def": 18,
+        "_cooldowns": {},
+        "eternalId": "d0ca7e5d2af7544579d5"
+      }
+    ],
+    "history": [
+      {
+        "title": "Criatura equipada",
+        "detail": "Infernal Juggernaut fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-10T06:02:27.409Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Astral Chimera.",
+        "tone": "danger",
+        "at": "2026-04-10T06:02:19.237Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Astral Chimera fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-10T06:01:52.277Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Ironclad Colossus (comun).",
+        "tone": "good",
+        "at": "2026-04-10T06:01:44.904Z"
+      },
+      {
+        "title": "Criatura eternizada",
+        "detail": "Astral Chimera fue preservada con una Esencia de Eternidad.",
+        "tone": "good",
+        "at": "2026-04-10T06:01:35.222Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Astral Chimera (legendario).",
+        "tone": "good",
+        "at": "2026-04-10T06:01:18.215Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Duskfang Matriarch (comun).",
+        "tone": "good",
+        "at": "2026-04-10T06:01:11.984Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T06:01:05.974Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T06:01:03.691Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T06:01:02.802Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Sunflare Phoenix (comun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:53.099Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Ashen Hierophant (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:39.666Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Mareas Coronadas (raro).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:32.912Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Sanctum Herald (comun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:23.824Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Storm Hydra (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:19.968Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Bloodmoon Reaper (comun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:13.625Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Frostbite Warden (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:09.577Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Void Leviathan (raro).",
+        "tone": "good",
+        "at": "2026-04-10T06:00:00.139Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:53.303Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:52.306Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:51.527Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:50.509Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:46.092Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Llave del Nexus por 45 de oro.",
+        "tone": "good",
+        "at": "2026-04-10T05:59:45.231Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Ironclad Colossus",
+        "image": "assets/creatures/armored_golem.png",
+        "archetype": "guardiana",
+        "lore": "Forjado para no caer, incluso cuando el mundo se parte.",
+        "bestRank": "legendario",
+        "count": 3,
+        "lastSeenAt": "2026-04-10T06:01:44.904Z",
+        "race": "Titanes Ferricos",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "pielDeGuerra",
+          "name": "Piel De Guerra",
+          "type": "passive",
+          "desc": "Al defender, gana una guardia reforzada y un pequeno escudo."
+        }
+      },
+      {
+        "name": "Astral Chimera",
+        "image": "assets/creatures/Astral_Chimera.png",
+        "archetype": "mistica",
+        "race": "Quimeras Astrales",
+        "legacy": "Helion",
+        "lore": "Una fusion de bestias celestes capaz de abrir fisuras astrales.",
+        "primaryAbility": {
+          "id": "fisuraArcana",
+          "name": "Fisura Arcana",
+          "type": "active",
+          "desc": "Causa dano y deja Expuesto al rival durante 2 turnos."
+        },
+        "bestRank": "legendario",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:01:18.215Z"
+      },
+      {
+        "name": "Duskfang Matriarch",
+        "image": "assets/creatures/Umbra_Stalker.png",
+        "archetype": "vampirica",
+        "race": "Acechantes Umbrios",
+        "legacy": "Vorath",
+        "lore": "Una matriarca nocturna que arrastra a sus presas bajo mareas de sombra.",
+        "primaryAbility": {
+          "id": "mareaUmbria",
+          "name": "Marea Umbria",
+          "type": "active",
+          "desc": "Golpea con una ola oscura, quema al rival y marchita su ataque."
+        },
+        "bestRank": "pocoComun",
+        "count": 4,
+        "lastSeenAt": "2026-04-10T06:01:11.983Z"
+      },
+      {
+        "name": "Sunflare Phoenix",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "archetype": "support",
+        "race": "Fenix del Cenit",
+        "legacy": "Helion",
+        "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+        "primaryAbility": {
+          "id": "renacerSolar",
+          "name": "Renacer Solar",
+          "type": "active",
+          "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos."
+        },
+        "bestRank": "comun",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:00:53.099Z"
+      },
+      {
+        "name": "Ashen Hierophant",
+        "image": "assets/creatures/seraphel_ceniza.png",
+        "archetype": "mistica",
+        "race": "Hierofantes de Ceniza",
+        "legacy": "Vorath",
+        "lore": "Oficia ritos de ceniza para recordar a una raza borrada por el abismo.",
+        "primaryAbility": {
+          "id": "decretoDeCeniza",
+          "name": "Decreto De Ceniza",
+          "type": "active",
+          "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa."
+        },
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-10T06:00:39.666Z"
+      },
+      {
+        "name": "Mareas Coronadas",
+        "image": "assets/creatures/thalmora_mareas.png",
+        "archetype": "guardiana",
+        "race": "Mareas Coronadas",
+        "legacy": "Nerea",
+        "lore": "Un coloso de marea petrificada que guarda umbrales hundidos.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-10T06:00:32.912Z"
+      },
+      {
+        "name": "Sanctum Herald",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "archetype": "support",
+        "race": "Heraldos del Santuario",
+        "legacy": "Helion",
+        "lore": "Mensajera de santuarios perdidos que envuelve la arena con un alba protectora.",
+        "primaryAbility": {
+          "id": "letaniaDelAlba",
+          "name": "Letania Del Alba",
+          "type": "active",
+          "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion."
+        },
+        "bestRank": "comun",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:00:23.824Z"
+      },
+      {
+        "name": "Storm Hydra",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "archetype": "salvaje",
+        "race": "Hidras Tempestivas",
+        "legacy": "Kairon",
+        "lore": "Cada cabeza ruge con mas fuerza cuando la tormenta se intensifica.",
+        "primaryAbility": {
+          "id": "himnoDeGuerra",
+          "name": "Himno De Guerra",
+          "type": "active",
+          "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio."
+        },
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:00:19.967Z"
+      },
+      {
+        "name": "Bloodmoon Reaper",
+        "image": "assets/creatures/Bloodmoon_Reaper.png",
+        "archetype": "vampirica",
+        "race": "Segadores Luna Roja",
+        "legacy": "Vorath",
+        "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+        "primaryAbility": {
+          "id": "cosechaEscarlata",
+          "name": "Cosecha Escarlata",
+          "type": "active",
+          "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival."
+        },
+        "bestRank": "epico",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T06:00:13.625Z"
+      },
+      {
+        "name": "Frostbite Warden",
+        "image": "assets/creatures/Frostbite_Warden.png",
+        "archetype": "guardiana",
+        "lore": "Centinela del hielo eterno que desgasta al enemigo con paciencia.",
+        "bestRank": "raro",
+        "count": 3,
+        "lastSeenAt": "2026-04-10T06:00:09.577Z",
+        "race": "Centinelas del Hielo",
+        "legacy": "Sylvara",
+        "primaryAbility": {
+          "id": "caparazonEspinas",
+          "name": "Caparazon De Espinas",
+          "type": "passive",
+          "desc": "Refleja parte del dano recibido."
+        }
+      },
+      {
+        "name": "Void Leviathan",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "archetype": "guardiana",
+        "race": "Leviatanes de la Fosa",
+        "legacy": "Vorath",
+        "lore": "Una marea abisal convertida en titan que devora la luz.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-10T06:00:00.139Z"
+      },
+      {
+        "name": "Infernal Juggernaut",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "archetype": "salvaje",
+        "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+        "bestRank": "legendario",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T05:56:23.508Z",
+        "race": "Juggernauts Infernos",
+        "legacy": "Vorath",
+        "primaryAbility": {
+          "id": "embateSalvaje",
+          "name": "Embate Salvaje",
+          "type": "active",
+          "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos."
+        }
+      },
+      {
+        "name": "Thunder Behemoth",
+        "image": "assets/creatures/thunderous_Behemoth.png",
+        "archetype": "salvaje",
+        "race": "Behemoths del Trueno",
+        "legacy": "Kairon",
+        "lore": "Su furia crece con cada herida recibida en plena tormenta.",
+        "primaryAbility": {
+          "id": "embateSalvaje",
+          "name": "Embate Salvaje",
+          "type": "active",
+          "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-10T05:50:48.984Z"
+      },
+      {
+        "name": "Crystal Basilisk",
+        "image": "assets/creatures/Crystal_Basilisk.png",
+        "archetype": "mistica",
+        "race": "Basiliscos de Cuarzo",
+        "legacy": "Sylvara",
+        "lore": "Su mirada fractura defensas y deja grietas en la realidad.",
+        "primaryAbility": {
+          "id": "decretoDeCeniza",
+          "name": "Decreto De Ceniza",
+          "type": "active",
+          "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa."
+        },
+        "bestRank": "comun",
+        "count": 2,
+        "lastSeenAt": "2026-04-10T05:50:08.622Z"
+      },
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "legacy": "Solar",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "primaryAbility": {
+          "id": "llamaAgonica",
+          "name": "Llama Agonica",
+          "type": "active",
+          "desc": "Quema al rival y castiga su recuperacion."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T05:21:53.118Z"
+      },
+      {
+        "name": "Tidebound Colossus",
+        "image": "assets/creatures/Abyssal_Kraken.png",
+        "archetype": "guardiana",
+        "race": "Colosos de Marea",
+        "legacy": "Abisal",
+        "lore": "Un coloso de marea petrificada que guarda umbrales hundidos.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T05:21:37.467Z"
+      },
+      {
+        "name": "Titan Mossbeard",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "archetype": "guardiana",
+        "race": "Colosos del Verdor",
+        "legacy": "Terraverde",
+        "lore": "Un coloso de bosque que resiste como una muralla viviente.",
+        "primaryAbility": {
+          "id": "resguardoDeRaiz",
+          "name": "Resguardo De Raiz",
+          "type": "active",
+          "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T05:21:32.636Z"
+      },
+      {
+        "name": "Chrono Mantis",
+        "image": "assets/creatures/Chrono_Mantis.png",
+        "archetype": "mistica",
+        "race": "Mantis Cronicas",
+        "legacy": "Tempestad",
+        "lore": "Caza entre pulsos de tiempo roto y silencios imposibles.",
+        "primaryAbility": {
+          "id": "marcaDelVacio",
+          "name": "Marca Del Vacio",
+          "type": "active",
+          "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T05:21:23.013Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "torbellinoHelado",
+        "name": "Torbellino Helado",
+        "type": "active",
+        "desc": "Un remolino de hielo que ralentiza y daña.",
+        "source": "Astral Chimera"
+      },
+      {
+        "id": "colmilloDeRuina",
+        "name": "Colmillo De Ruina",
+        "type": "active",
+        "desc": "Perfora la guardia del objetivo y deja un sangrado constante.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "golpeVoraz",
+        "name": "Golpe Voraz",
+        "type": "active",
+        "desc": "Inflige dano y cura parte del dano causado.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "garraRelampago",
+        "name": "Garra Relampago",
+        "type": "active",
+        "desc": "Un golpe fulminante que perfora la guardia enemiga.",
+        "source": "Infernal Juggernaut"
+      },
+      {
+        "id": "renacerSolar",
+        "name": "Renacer Solar",
+        "type": "active",
+        "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos.",
+        "source": "Sunflare Phoenix"
+      },
+      {
+        "id": "llamaAgonica",
+        "name": "Llama Agonica",
+        "type": "active",
+        "desc": "Quema al rival y castiga su recuperacion.",
+        "source": "Pyroclast Drake"
+      },
+      {
+        "id": "cosechaEscarlata",
+        "name": "Cosecha Escarlata",
+        "type": "active",
+        "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+        "source": "Bloodmoon Reaper"
+      },
+      {
+        "id": "fisuraArcana",
+        "name": "Fisura Arcana",
+        "type": "active",
+        "desc": "Causa dano y deja Expuesto al rival durante 2 turnos.",
+        "source": "Astral Chimera"
+      },
+      {
+        "id": "selloDelTitan",
+        "name": "Sello Del Titan",
+        "type": "active",
+        "desc": "Marca la arena con un sello antiguo que fortalece tu defensa.",
+        "source": "Mareas Coronadas"
+      },
+      {
+        "id": "decretoDeCeniza",
+        "name": "Decreto De Ceniza",
+        "type": "active",
+        "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa.",
+        "source": "Ashen Hierophant"
+      },
+      {
+        "id": "caparazonEspinas",
+        "name": "Caparazon De Espinas",
+        "type": "passive",
+        "desc": "Refleja parte del dano recibido.",
+        "source": "Frostbite Warden"
+      },
+      {
+        "id": "letaniaDelAlba",
+        "name": "Letania Del Alba",
+        "type": "active",
+        "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+        "source": "Sanctum Herald"
+      },
+      {
+        "id": "juramentoDelBastion",
+        "name": "Juramento Del Bastion",
+        "type": "active",
+        "desc": "Refuerza la defensa y levanta un escudo para aguantar el intercambio.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "marcaDelVacio",
+        "name": "Marca Del Vacio",
+        "type": "active",
+        "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno.",
+        "source": "Seraphel, Heraldo de la Ceniza"
+      },
+      {
+        "id": "mareaUmbria",
+        "name": "Marea Umbria",
+        "type": "active",
+        "desc": "Golpea con una ola oscura, quema al rival y marchita su ataque.",
+        "source": "Thalmora, Reina De Las Mareas Veladas"
+      },
+      {
+        "id": "pielDeGuerra",
+        "name": "Piel De Guerra",
+        "type": "passive",
+        "desc": "Al defender, gana una guardia reforzada y un pequeno escudo.",
+        "source": "Ironclad Colossus"
+      },
+      {
+        "id": "muroAstral",
+        "name": "Muro Astral",
+        "type": "active",
+        "desc": "Otorga un escudo por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "pactoLuminar",
+        "name": "Pacto Luminar",
+        "type": "active",
+        "desc": "Restaura vida propia y debilita el ataque rival por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "resguardoDeRaiz",
+        "name": "Resguardo De Raiz",
+        "type": "active",
+        "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+        "source": "Titan Mossbeard"
+      },
+      {
+        "id": "himnoDeGuerra",
+        "name": "Himno De Guerra",
+        "type": "active",
+        "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+        "source": "Storm Hydra"
+      },
+      {
+        "id": "embateSalvaje",
+        "name": "Embate Salvaje",
+        "type": "active",
+        "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+        "source": "Infernal Juggernaut"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "seraphel_ceniza",
+        "name": "Seraphel, Heraldo de la Ceniza",
+        "title": "Heraldo de la Ceniza",
+        "archetype": "mistica",
+        "race": "Hierofantes de Ceniza",
+        "pantheon": "Vorath",
+        "invocationView": "Los restos de la raza extinguida sobreviven en la voz de Seraphel. Toda invocacion que lo enfrenta siente que combate contra un funeral que nunca pudo terminar.",
+        "image": "assets/creatures/seraphel_ceniza.png",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-10T05:54:02.947Z",
+        "lastDefeatedAt": "2026-04-10T05:54:02.947Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "name": "Velkaris, Archivista del Umbral",
+        "title": "Archivista del Umbral",
+        "archetype": "mistica",
+        "race": "Djinn del Umbral",
+        "pantheon": "Vorath",
+        "invocationView": "Velkaris guarda nombres, pactos y derrotas que nuestras invocaciones preferirian olvidar. En su archivo, la caida del mundo ya no es tragedia: es material de estudio.",
+        "image": "assets/creatures/Nether_Djinn.png",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T23:11:15.782Z",
+        "lastDefeatedAt": "2026-04-05T23:11:15.782Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "name": "Orophis, Bastion del Verdor",
+        "title": "Bastion del Verdor",
+        "archetype": "guardiana",
+        "race": "Colosos del Verdor",
+        "pantheon": "Terraverde",
+        "invocationView": "Pendiente de cronica desde la perspectiva de la invocacion ante la caida del mundo.",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T04:43:29.908Z",
+        "lastDefeatedAt": "2026-04-05T04:43:29.908Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "name": "Nyxar, Hambre de la Fosa",
+        "title": "Hambre de la Fosa",
+        "archetype": "vampirica",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:47:31.915Z",
+        "lastDefeatedAt": "2026-04-05T03:47:31.915Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "name": "Solara, Regente Cenital",
+        "title": "Regente Cenital",
+        "archetype": "support",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:07:02.791Z",
+        "lastDefeatedAt": "2026-04-05T03:07:02.791Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "name": "Kaelith, Soberano del Vendaval",
+        "title": "Soberano del Vendaval",
+        "archetype": "salvaje",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:02:26.450Z",
+        "lastDefeatedAt": "2026-04-05T03:02:26.450Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T02:28:19.304Z",
+        "lastDefeatedAt": "2026-04-05T02:28:19.304Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "seraphel_ceniza",
+        "rewardTitle": "Estandarte de Heraldo de la Ceniza",
+        "unlockedAt": "2026-04-10T05:54:02.947Z"
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "rewardTitle": "Estandarte de Archivista del Umbral",
+        "unlockedAt": "2026-04-05T23:11:15.782Z"
+      },
+      {
+        "bossId": "orophis_bastion",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "unlockedAt": "2026-04-05T04:43:29.908Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "unlockedAt": "2026-04-05T03:47:31.915Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "unlockedAt": "2026-04-05T03:07:02.791Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "unlockedAt": "2026-04-05T03:02:26.450Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-05T02:28:19.304Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "seraphel_ceniza",
+        "unlockedAt": "2026-04-10T05:54:02.947Z",
+        "relicId": "relic_ashen_edict",
+        "relicName": "Edicto De Ceniza",
+        "attunement": "Vorath",
+        "effectText": "Acta funeraria de una raza consumida por el abismo.",
+        "lore": "La ceniza no se desprende. Parece insistir en que alguien recuerde lo borrado.",
+        "combatEffects": [
+          {
+            "stat": "attackPct",
+            "amount": 0.08,
+            "durationTurns": 99
+          },
+          {
+            "stat": "defenseFlat",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "velkaris_umbral",
+        "unlockedAt": "2026-04-05T23:11:15.782Z",
+        "relicId": "relic_umbral_page",
+        "relicName": "Pagina Del Umbral",
+        "attunement": "Vorath",
+        "effectText": "Hoja arrancada del archivo prohibido de Velkaris.",
+        "lore": "Las runas cambian de orden cada vez que alguien pronuncia el nombre de un dios caido.",
+        "combatEffects": [
+          {
+            "stat": "defenseFlat",
+            "amount": 1,
+            "durationTurns": 99
+          },
+          {
+            "stat": "regenTurn",
+            "amount": 2,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "orophis_bastion",
+        "unlockedAt": "2026-04-05T04:43:29.908Z",
+        "relicId": "relic_savia_core",
+        "relicName": "Nucleo De Savia Ancestral",
+        "attunement": "Terraverde",
+        "effectText": "Reliquia viva del Bastion del Verdor.",
+        "lore": "Una savia mineralizada que aun respira con la memoria de bosques extinguidos."
+      }
+    ],
+    "divinityFragments": [
+      {
+        "fragmentId": "fragment_Helion_Serafines del Velo",
+        "legacy": "Helion",
+        "race": "Serafines del Velo",
+        "obtainedAt": "2026-04-11T20:14:04.619Z",
+        "bossName": "Aurelion, Custodio del Eclipse"
+      },
+      {
+        "fragmentId": "fragment_Vorath_Leviatanes de la Fosa",
+        "legacy": "Vorath",
+        "race": "Leviatanes de la Fosa",
+        "obtainedAt": "2026-04-11T23:31:05.507Z",
+        "bossName": "Nyxar, Hambre de la Fosa"
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-04T21:22:26.240Z",
+    "lastSeenAt": "2026-04-13T21:22:12.323Z"
+  },
+  "player_x7qr3jpl1f": {
+    "name": "Invocador",
+    "sessionToken": "6226d726d57932ef1112be9a0d0052d446d9",
+    "keys": 3,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "preservedCreatures": [],
+    "history": [],
+    "collection": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-04T21:57:40.619Z",
+    "lastSeenAt": "2026-04-04T21:57:44.244Z"
+  },
+  "acct_cc7f87e340f7e557": {
+    "name": "C4M1L4_N",
+    "sessionToken": "99c7507de5a5ecf8ca6335fe358dae585b48",
+    "keys": 4,
+    "gold": 6,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": {
+      "name": "Sunflare Phoenix",
+      "image": "assets/creatures/Sunflare_Phoenix.png",
+      "vida": 49,
+      "ataque": 21,
+      "defensa": 6,
+      "regen": 5,
+      "archetype": "support",
+      "signatureAbilityId": "renacerSolar",
+      "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+      "rank": "pocoComun",
+      "vidaMax": 97,
+      "abilities": [
+        {
+          "id": "renacerSolar",
+          "name": "Renacer Solar",
+          "type": "active",
+          "archetypes": [
+            "support",
+            "mistica"
+          ],
+          "cooldownTurns": 5,
+          "durationTurns": 2,
+          "healPercent": 0.22,
+          "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos.",
+          "effects": [
+            {
+              "target": "self",
+              "stat": "shield",
+              "amount": 12,
+              "durationTurns": 2
+            },
+            {
+              "target": "self",
+              "stat": "regenTurn",
+              "amount": 8,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ],
+      "hp": 49,
+      "atk": 21,
+      "def": 6,
+      "_cooldowns": {
+        "renacerSolar": 4
+      }
+    },
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Rito de Restauracion por 30 de oro.",
+        "tone": "good",
+        "at": "2026-04-04T22:47:14.288Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse y obtuviste 36 de oro.",
+        "tone": "good",
+        "at": "2026-04-04T22:42:09.333Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-04T22:42:09.333Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-04T22:42:09.333Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Sunflare Phoenix (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-04T22:14:11.298Z"
+      },
+      {
+        "title": "Nombre actualizado",
+        "detail": "Ahora juegas como C4M1L4_N.",
+        "tone": "neutral",
+        "at": "2026-04-04T22:09:54.182Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Sunflare Phoenix",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "archetype": "support",
+        "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-04T22:14:11.298Z"
+      }
+    ],
+    "discoveredAbilities": [],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "image": "assets/creatures/Luminary_Serap.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-04T22:42:09.333Z",
+        "lastDefeatedAt": "2026-04-04T22:42:09.333Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-04T22:42:09.333Z"
+      }
+    ],
+    "apostleRelics": [],
+    "divinityFragments": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-04T22:04:20.904Z",
+    "lastSeenAt": "2026-04-10T03:33:53.911Z"
+  },
+  "verify_world_view": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [],
+    "collection": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "deleted": true,
+    "deletedAt": "2026-04-05T02:53:50.009Z",
+    "createdAt": "2026-04-05T02:51:11.102Z",
+    "lastSeenAt": "2026-04-05T02:53:50.009Z"
+  },
+  "verify_journal": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Sunflare Phoenix (legendario).",
+        "tone": "good",
+        "at": "2026-04-05T03:22:32.111Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Sunflare Phoenix",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "archetype": "support",
+        "race": "Fenix del Cenit",
+        "legacy": "Solar",
+        "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+        "primaryAbility": {
+          "id": "renacerSolar",
+          "name": "Renacer Solar",
+          "type": "active",
+          "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos."
+        },
+        "bestRank": "legendario",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T03:22:32.111Z"
+      }
+    ],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "deleted": true,
+    "deletedAt": "2026-04-05T03:22:32.150Z",
+    "createdAt": "2026-04-05T03:22:32.082Z",
+    "lastSeenAt": "2026-04-05T03:22:32.150Z"
+  },
+  "verify_phase33": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 220,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": null,
+    "consumables": {
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame",
+      "solar_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Marco: Alba Ritual por 80 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T03:36:57.419Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse y obtuviste 40 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.972Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Fragmento Del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.972Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Salva De Marea como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.972Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.972Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.972Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Sunflare Phoenix (comun).",
+        "tone": "good",
+        "at": "2026-04-05T03:35:35.923Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Sunflare Phoenix",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "archetype": "support",
+        "race": "Fenix del Cenit",
+        "legacy": "Solar",
+        "lore": "Renace con cada llama para sostener la batalla un poco mas.",
+        "primaryAbility": {
+          "id": "renacerSolar",
+          "name": "Renacer Solar",
+          "type": "active",
+          "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T03:35:35.923Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "testBossSkill",
+        "name": "Filo de Prueba",
+        "type": "active",
+        "desc": "Temporal.",
+        "source": "Dummy Boss"
+      },
+      {
+        "id": "renacerSolar",
+        "name": "Renacer Solar",
+        "type": "active",
+        "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos.",
+        "source": "Sunflare Phoenix"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "guardiana",
+        "image": "assets/bosses/aurelion.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:35:35.972Z",
+        "lastDefeatedAt": "2026-04-05T03:35:35.972Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-05T03:35:35.972Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "aurelion_eclipse",
+        "unlockedAt": "2026-04-05T03:35:35.972Z",
+        "relicId": "relic_eclipse_shard",
+        "relicName": "Fragmento Del Eclipse",
+        "attunement": "Solar",
+        "effectText": "Recuerdo del Custodio del Eclipse y de la primera fractura del velo.",
+        "lore": "Una esquirla dorada que vibra cuando una defensa demasiado confiada está por quebrarse."
+      }
+    ],
+    "deleted": true,
+    "deletedAt": "2026-04-05T03:36:57.429Z",
+    "createdAt": "2026-04-05T03:35:35.893Z",
+    "lastSeenAt": "2026-04-05T03:36:57.429Z"
+  },
+  "verify_phase33b": {
+    "name": "Tester",
+    "sessionToken": "f6697cbe540478fd46e17dda214afb30c3f6",
+    "keys": 4,
+    "gold": 40,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": {
+      "name": "Verdant Guardian",
+      "image": "assets/creatures/Verdant_Guardian.png",
+      "vida": 139,
+      "ataque": 17,
+      "defensa": 14,
+      "regen": 5,
+      "archetype": "support",
+      "race": "Guardianes Verdantes",
+      "legacy": "Terraverde",
+      "signatureAbilityId": "resguardoDeRaiz",
+      "lore": "Protege la vida del bosque con escudos de savia y raiz.",
+      "rank": "raro",
+      "vidaMax": 139,
+      "abilities": [
+        {
+          "id": "resguardoDeRaiz",
+          "name": "Resguardo De Raiz",
+          "type": "active",
+          "archetypes": [
+            "guardiana",
+            "support"
+          ],
+          "cooldownTurns": 4,
+          "durationTurns": 2,
+          "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+          "effects": [
+            {
+              "target": "self",
+              "stat": "shield",
+              "amount": 14,
+              "durationTurns": 2
+            },
+            {
+              "target": "self",
+              "stat": "regenTurn",
+              "amount": 4,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ]
+    },
+    "consumables": {
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse y obtuviste 40 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.173Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Fragmento Del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.173Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Salva De Marea como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.173Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.173Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.173Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Verdant Guardian (raro).",
+        "tone": "good",
+        "at": "2026-04-05T03:40:32.127Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Verdant Guardian",
+        "image": "assets/creatures/Verdant_Guardian.png",
+        "archetype": "support",
+        "race": "Guardianes Verdantes",
+        "legacy": "Terraverde",
+        "lore": "Protege la vida del bosque con escudos de savia y raiz.",
+        "primaryAbility": {
+          "id": "resguardoDeRaiz",
+          "name": "Resguardo De Raiz",
+          "type": "active",
+          "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion."
+        },
+        "bestRank": "raro",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T03:40:32.126Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "testBossSkill",
+        "name": "Filo de Prueba",
+        "type": "active",
+        "desc": "Temporal.",
+        "source": "Dummy Boss"
+      },
+      {
+        "id": "resguardoDeRaiz",
+        "name": "Resguardo De Raiz",
+        "type": "active",
+        "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+        "source": "Verdant Guardian"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "guardiana",
+        "image": "assets/bosses/aurelion.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:40:32.172Z",
+        "lastDefeatedAt": "2026-04-05T03:40:32.172Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-05T03:40:32.172Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "aurelion_eclipse",
+        "unlockedAt": "2026-04-05T03:40:32.172Z",
+        "relicId": "relic_eclipse_shard",
+        "relicName": "Fragmento Del Eclipse",
+        "attunement": "Solar",
+        "effectText": "Recuerdo del Custodio del Eclipse y de la primera fractura del velo.",
+        "lore": "Una esquirla dorada que vibra cuando una defensa demasiado confiada está por quebrarse."
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-05T03:40:32.096Z",
+    "lastSeenAt": "2026-04-05T03:40:32.173Z"
+  },
+  "verify_phase33c": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "deleted": true,
+    "deletedAt": "2026-04-05T03:41:58.146Z",
+    "createdAt": "2026-04-05T03:41:58.114Z",
+    "lastSeenAt": "2026-04-05T03:41:58.146Z"
+  },
+  "verify_phase33d": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 220,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": null,
+    "consumables": {
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame",
+      "solar_frame"
+    ],
+    "equippedCardFrameId": "solar_frame",
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Marco equipado",
+        "detail": "Ahora usas el marco Marco del Alba.",
+        "tone": "neutral",
+        "at": "2026-04-05T03:43:24.838Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Marco: Alba Ritual por 80 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.832Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Aurelion, Custodio del Eclipse y obtuviste 40 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.823Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Fragmento Del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.823Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Salva De Marea como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.823Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.823Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Custodio del Eclipse.",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.823Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Pyroclast Drake (comun).",
+        "tone": "good",
+        "at": "2026-04-05T03:43:24.769Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "legacy": "Solar",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "primaryAbility": {
+          "id": "llamaAgonica",
+          "name": "Llama Agonica",
+          "type": "active",
+          "desc": "Quema al rival y castiga su recuperacion."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-05T03:43:24.768Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "testBossSkill",
+        "name": "Filo de Prueba",
+        "type": "active",
+        "desc": "Temporal.",
+        "source": "Dummy Boss"
+      },
+      {
+        "id": "llamaAgonica",
+        "name": "Llama Agonica",
+        "type": "active",
+        "desc": "Quema al rival y castiga su recuperacion.",
+        "source": "Pyroclast Drake"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "guardiana",
+        "image": "assets/bosses/aurelion.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-05T03:43:24.823Z",
+        "lastDefeatedAt": "2026-04-05T03:43:24.823Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-05T03:43:24.823Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "aurelion_eclipse",
+        "unlockedAt": "2026-04-05T03:43:24.823Z",
+        "relicId": "relic_eclipse_shard",
+        "relicName": "Fragmento Del Eclipse",
+        "attunement": "Solar",
+        "effectText": "Recuerdo del Custodio del Eclipse y de la primera fractura del velo.",
+        "lore": "Una esquirla dorada que vibra cuando una defensa demasiado confiada está por quebrarse."
+      }
+    ],
+    "deleted": true,
+    "deletedAt": "2026-04-05T03:43:24.848Z",
+    "createdAt": "2026-04-05T03:43:24.751Z",
+    "lastSeenAt": "2026-04-05T03:43:24.848Z"
+  },
+  "verify_reward_fix": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 30,
+    "essence": 1,
+    "wins": 1,
+    "losses": 0,
+    "bossWins": 1,
+    "creature": null,
+    "consumables": {
+      "star_sigil": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "claimedBossRewards": [
+      "kaelith_vendaval"
+    ],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Kaelith, Soberano del Vendaval y obtuviste 30 de oro.",
+        "tone": "good",
+        "at": "2026-04-05T04:07:12.725Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Colmillo De Tempestad.",
+        "tone": "good",
+        "at": "2026-04-05T04:07:12.725Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Sigilo De Resonancia como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-05T04:07:12.725Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-05T04:07:12.724Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Soberano del Vendaval.",
+        "tone": "good",
+        "at": "2026-04-05T04:07:12.724Z"
+      }
+    ],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [
+      {
+        "bossId": "kaelith_vendaval",
+        "name": "Kaelith, Soberano del Vendaval",
+        "title": "Soberano del Vendaval",
+        "defeats": 2,
+        "lastDefeatedAt": "2026-04-05T04:07:12.724Z",
+        "race": "Hidras Tempestivas",
+        "pantheon": "Tempestad",
+        "invocationView": "Pendiente de cronica desde la perspectiva de la invocacion ante la caida del mundo."
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "kaelith_vendaval",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "unlockedAt": "2026-04-05T04:07:12.724Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "kaelith_vendaval",
+        "unlockedAt": "2026-04-05T04:07:12.724Z",
+        "relicId": "relic_storm_fang",
+        "relicName": "Colmillo De Tempestad",
+        "attunement": "Tempestad",
+        "effectText": "Trofeo del Soberano del Vendaval, simbolo de velocidad y remate.",
+        "lore": "Cruje con electricidad residual y con el eco de mil cacerias abiertas en la tormenta."
+      }
+    ],
+    "deleted": true,
+    "deletedAt": "2026-04-05T04:07:12.770Z",
+    "createdAt": "2026-04-05T04:07:12.708Z",
+    "lastSeenAt": "2026-04-05T04:07:12.770Z"
+  },
+  "verify_relic_phase": {
+    "name": "Tester",
+    "sessionToken": "",
+    "keys": 0,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "relic_storm_fang",
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [
+      {
+        "relicId": "relic_storm_fang",
+        "relicName": "Colmillo De Tempestad",
+        "combatEffect": {
+          "stat": "attackFlat",
+          "amount": 3,
+          "durationTurns": 99
+        }
+      }
+    ],
+    "deleted": true,
+    "deletedAt": "2026-04-05T04:57:34.208Z",
+    "createdAt": "2026-04-05T04:57:34.201Z",
+    "lastSeenAt": "2026-04-05T04:57:34.208Z"
+  },
+  "player_68ilz1gpfj": {
+    "name": "Máximo",
+    "sessionToken": "fc790bdfb6cef868bfb2241f6fc5a8775f6f",
+    "keys": 3,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Nombre actualizado",
+        "detail": "Ahora juegas como Máximo.",
+        "tone": "neutral",
+        "at": "2026-04-11T20:10:36.720Z"
+      }
+    ],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "divinityFragments": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-10T05:12:13.918Z",
+    "lastSeenAt": "2026-04-11T20:10:36.720Z"
+  },
+  "player_vu2mmd7viu": {
+    "name": "Invocador",
+    "sessionToken": "3c4ae5e460a4051e14f095302af609ab8935",
+    "keys": 3,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "divinityFragments": [],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-10T05:48:58.753Z",
+    "lastSeenAt": "2026-04-10T05:48:58.753Z"
+  },
+  "acct_b78a3bd7f830bb5f": {
+    "name": "Máximo",
+    "sessionToken": "83502947765a3cf691380799bfacedfed5ab",
+    "keys": 0,
+    "gold": 340,
+    "essence": 5,
+    "wins": 5,
+    "losses": 12,
+    "bossWins": 5,
+    "creature": null,
+    "consumables": {
+      "star_sigil": 3,
+      "mending_salve": 1
+    },
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus",
+      "eclipse_velvet"
+    ],
+    "equippedBackgroundId": "eclipse_velvet",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "relic_savia_core",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [
+      "aurelion_eclipse",
+      "kaelith_vendaval",
+      "solara_regente",
+      "nyxar_abyss",
+      "orophis_bastion"
+    ],
+    "claimedApostleMilestones": [
+      "apostle_2",
+      "apostle_4"
+    ],
+    "preservedCreatures": [
+      {
+        "name": "Thunder Behemoth",
+        "image": "assets/creatures/thunderous_Behemoth.png",
+        "vida": 210,
+        "ataque": 35,
+        "defensa": 17,
+        "regen": 2,
+        "archetype": "salvaje",
+        "race": "Behemoths del Trueno",
+        "legacy": "Kairon",
+        "signatureAbilityId": "embateSalvaje",
+        "lore": "Su furia crece con cada herida recibida en plena tormenta.",
+        "rank": "legendario",
+        "vidaMax": 210,
+        "abilities": [
+          {
+            "id": "embateSalvaje",
+            "name": "Embate Salvaje",
+            "type": "active",
+            "archetypes": [
+              "salvaje"
+            ],
+            "cooldownTurns": 4,
+            "damageMultiplier": 1.22,
+            "durationTurns": 2,
+            "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+            "effects": [
+              {
+                "target": "self",
+                "stat": "attackFlat",
+                "amount": 4,
+                "durationTurns": 2
+              }
+            ]
+          },
+          {
+            "id": "instintoSalvaje",
+            "name": "Instinto Salvaje",
+            "type": "passive",
+            "archetypes": [
+              "salvaje",
+              "asaltante"
+            ],
+            "desc": "Ataque automatico adicional cuando la vida es baja."
+          }
+        ],
+        "hp": 210,
+        "atk": 35,
+        "def": 17,
+        "_cooldowns": {},
+        "eternalId": "a4fcd9f98ee508705534"
+      }
+    ],
+    "history": [
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Thunder Behemoth.",
+        "tone": "danger",
+        "at": "2026-04-14T20:34:56.954Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Thunder Behemoth fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:34:26.769Z"
+      },
+      {
+        "title": "Reliquia equipada",
+        "detail": "Ahora portas Nucleo De Savia Ancestral.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:34:18.662Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Thunder Behemoth.",
+        "tone": "danger",
+        "at": "2026-04-14T20:33:56.882Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Thunder Behemoth fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:32:48.762Z"
+      },
+      {
+        "title": "Reliquia equipada",
+        "detail": "Ahora portas Fragmento Del Eclipse.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:29:11.174Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Thunder Behemoth.",
+        "tone": "danger",
+        "at": "2026-04-14T20:28:41.878Z"
+      },
+      {
+        "title": "Reliquia equipada",
+        "detail": "Ahora portas Colmillo De Tempestad.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:27:15.201Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Thunder Behemoth fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-14T20:26:53.355Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Infernal Juggernaut.",
+        "tone": "danger",
+        "at": "2026-04-14T20:26:43.136Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Infernal Juggernaut (comun).",
+        "tone": "good",
+        "at": "2026-04-14T20:26:14.022Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Crystal Basilisk (comun).",
+        "tone": "good",
+        "at": "2026-04-14T20:26:09.491Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Thunder Behemoth.",
+        "tone": "danger",
+        "at": "2026-04-14T20:26:02.833Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Thunder Behemoth fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-11T23:38:48.812Z"
+      },
+      {
+        "title": "Caida ante apostol",
+        "detail": "Tu invocacion cayo frente a Thunder Behemoth.",
+        "tone": "danger",
+        "at": "2026-04-11T23:38:39.156Z"
+      },
+      {
+        "title": "Fondo equipado",
+        "detail": "Ahora usas el fondo Terciopelo del Eclipse.",
+        "tone": "neutral",
+        "at": "2026-04-11T23:37:44.054Z"
+      },
+      {
+        "title": "Compra en tienda",
+        "detail": "Compraste Fondo: Terciopelo del Eclipse por 90 de oro.",
+        "tone": "good",
+        "at": "2026-04-11T23:37:42.688Z"
+      },
+      {
+        "title": "Apostol derrotado",
+        "detail": "Derrotaste a Orophis, Bastion del Verdor y obtuviste 92 de oro.",
+        "tone": "good",
+        "at": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "title": "Reliquia obtenida",
+        "detail": "Recuperaste Nucleo De Savia Ancestral.",
+        "tone": "good",
+        "at": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "title": "Botin de apostol",
+        "detail": "Recibiste Salva De Marea como botin del encuentro.",
+        "tone": "good",
+        "at": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "title": "Esencia obtenida",
+        "detail": "Recibiste una Esencia de Eternidad por derrotar a un apostol por primera vez.",
+        "tone": "good",
+        "at": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "title": "Estandarte obtenido",
+        "detail": "Desbloqueaste Estandarte de Bastion del Verdor.",
+        "tone": "good",
+        "at": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "title": "Criatura equipada",
+        "detail": "Thunder Behemoth fue elegida desde la coleccion preservada.",
+        "tone": "neutral",
+        "at": "2026-04-11T23:34:45.501Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Storm Hydra (comun).",
+        "tone": "good",
+        "at": "2026-04-11T23:34:20.652Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Infernal Juggernaut",
+        "image": "assets/creatures/Infernal_Juggernaut.png",
+        "archetype": "salvaje",
+        "race": "Juggernauts Infernos",
+        "legacy": "Vorath",
+        "lore": "Un motor de guerra infernal que solo entiende destruccion.",
+        "primaryAbility": {
+          "id": "embateSalvaje",
+          "name": "Embate Salvaje",
+          "type": "active",
+          "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos."
+        },
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-14T20:26:14.021Z"
+      },
+      {
+        "name": "Crystal Basilisk",
+        "image": "assets/creatures/Crystal_Basilisk.png",
+        "archetype": "mistica",
+        "race": "Basiliscos de Cuarzo",
+        "legacy": "Sylvara",
+        "lore": "Su mirada fractura defensas y deja grietas en la realidad.",
+        "primaryAbility": {
+          "id": "decretoDeCeniza",
+          "name": "Decreto De Ceniza",
+          "type": "active",
+          "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-14T20:26:09.491Z"
+      },
+      {
+        "name": "Storm Hydra",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "archetype": "salvaje",
+        "race": "Hidras Tempestivas",
+        "legacy": "Kairon",
+        "lore": "Cada cabeza ruge con mas fuerza cuando la tormenta se intensifica.",
+        "primaryAbility": {
+          "id": "himnoDeGuerra",
+          "name": "Himno De Guerra",
+          "type": "active",
+          "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T23:34:20.652Z"
+      },
+      {
+        "name": "Thunder Behemoth",
+        "image": "assets/creatures/thunderous_Behemoth.png",
+        "archetype": "salvaje",
+        "race": "Behemoths del Trueno",
+        "legacy": "Kairon",
+        "lore": "Su furia crece con cada herida recibida en plena tormenta.",
+        "primaryAbility": {
+          "id": "embateSalvaje",
+          "name": "Embate Salvaje",
+          "type": "active",
+          "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos."
+        },
+        "bestRank": "legendario",
+        "count": 2,
+        "lastSeenAt": "2026-04-11T23:34:14.961Z"
+      },
+      {
+        "name": "Frostbite Warden",
+        "image": "assets/creatures/Frostbite_Warden.png",
+        "archetype": "guardiana",
+        "race": "Centinelas del Hielo",
+        "legacy": "Sylvara",
+        "lore": "Centinela del hielo eterno que desgasta al enemigo con paciencia.",
+        "primaryAbility": {
+          "id": "caparazonEspinas",
+          "name": "Caparazon De Espinas",
+          "type": "passive",
+          "desc": "Refleja parte del dano recibido."
+        },
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T23:34:10.977Z"
+      },
+      {
+        "name": "Titan Mossbeard",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "archetype": "guardiana",
+        "race": "Colosos del Verdor",
+        "legacy": "Sylvara",
+        "lore": "Un coloso de bosque que resiste como una muralla viviente.",
+        "primaryAbility": {
+          "id": "resguardoDeRaiz",
+          "name": "Resguardo De Raiz",
+          "type": "active",
+          "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion."
+        },
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T23:34:05.960Z"
+      },
+      {
+        "name": "Mareas Coronadas",
+        "image": "assets/creatures/thalmora_mareas.png",
+        "archetype": "guardiana",
+        "race": "Mareas Coronadas",
+        "legacy": "Nerea",
+        "lore": "Un coloso de marea petrificada que guarda umbrales hundidos.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "raro",
+        "count": 2,
+        "lastSeenAt": "2026-04-11T23:34:00.410Z"
+      },
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "legacy": "Helion",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "primaryAbility": {
+          "id": "llamaAgonica",
+          "name": "Llama Agonica",
+          "type": "active",
+          "desc": "Quema al rival y castiga su recuperacion."
+        },
+        "bestRank": "comun",
+        "count": 2,
+        "lastSeenAt": "2026-04-11T23:33:38.455Z"
+      },
+      {
+        "name": "Ironclad Colossus",
+        "image": "assets/creatures/armored_golem.png",
+        "archetype": "guardiana",
+        "race": "Titanes Ferricos",
+        "legacy": "Sylvara",
+        "lore": "Forjado para no caer, incluso cuando el mundo se parte.",
+        "primaryAbility": {
+          "id": "pielDeGuerra",
+          "name": "Piel De Guerra",
+          "type": "passive",
+          "desc": "Al defender, gana una guardia reforzada y un pequeno escudo."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T23:28:31.883Z"
+      },
+      {
+        "name": "Bloodmoon Reaper",
+        "image": "assets/creatures/Bloodmoon_Reaper.png",
+        "archetype": "vampirica",
+        "race": "Segadores Luna Roja",
+        "legacy": "Vorath",
+        "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+        "primaryAbility": {
+          "id": "cosechaEscarlata",
+          "name": "Cosecha Escarlata",
+          "type": "active",
+          "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival."
+        },
+        "bestRank": "epico",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T23:27:12.649Z"
+      },
+      {
+        "name": "Void Leviathan",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "archetype": "guardiana",
+        "race": "Leviatanes de la Fosa",
+        "legacy": "Vorath",
+        "lore": "Una marea abisal convertida en titan que devora la luz.",
+        "primaryAbility": {
+          "id": "selloDelTitan",
+          "name": "Sello Del Titan",
+          "type": "active",
+          "desc": "Marca la arena con un sello antiguo que fortalece tu defensa."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T21:06:33.486Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "decretoDeCeniza",
+        "name": "Decreto De Ceniza",
+        "type": "active",
+        "desc": "Un veredicto ardiente que quema al rival y agrieta su defensa.",
+        "source": "Crystal Basilisk"
+      },
+      {
+        "id": "letaniaDelAlba",
+        "name": "Letania Del Alba",
+        "type": "active",
+        "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+        "source": "Velkaris, Archivista del Umbral"
+      },
+      {
+        "id": "juramentoDelBastion",
+        "name": "Juramento Del Bastion",
+        "type": "active",
+        "desc": "Refuerza la defensa y levanta un escudo para aguantar el intercambio.",
+        "source": "Velkaris, Archivista del Umbral"
+      },
+      {
+        "id": "marcaDelVacio",
+        "name": "Marca Del Vacio",
+        "type": "active",
+        "desc": "Golpea la mente rival y la deja en Silencio durante 1 turno.",
+        "source": "Velkaris, Archivista del Umbral"
+      },
+      {
+        "id": "mareaUmbria",
+        "name": "Marea Umbria",
+        "type": "active",
+        "desc": "Golpea con una ola oscura, quema al rival y marchita su ataque.",
+        "source": "Velkaris, Archivista del Umbral"
+      },
+      {
+        "id": "pactoLuminar",
+        "name": "Pacto Luminar",
+        "type": "active",
+        "desc": "Restaura vida propia y debilita el ataque rival por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "himnoDeGuerra",
+        "name": "Himno De Guerra",
+        "type": "active",
+        "desc": "Eleva el fervor de combate, aumentando el ataque y el sosten propio.",
+        "source": "Storm Hydra"
+      },
+      {
+        "id": "caparazonEspinas",
+        "name": "Caparazon De Espinas",
+        "type": "passive",
+        "desc": "Refleja parte del dano recibido.",
+        "source": "Frostbite Warden"
+      },
+      {
+        "id": "resguardoDeRaiz",
+        "name": "Resguardo De Raiz",
+        "type": "active",
+        "desc": "Refuerza el cuerpo con corteza viva, Escudo y Regeneracion.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "instintoSalvaje",
+        "name": "Instinto Salvaje",
+        "type": "passive",
+        "desc": "Ataque automatico adicional cuando la vida es baja.",
+        "source": "Thunder Behemoth"
+      },
+      {
+        "id": "pielDeGuerra",
+        "name": "Piel De Guerra",
+        "type": "passive",
+        "desc": "Al defender, gana una guardia reforzada y un pequeno escudo.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "colmilloDeRuina",
+        "name": "Colmillo De Ruina",
+        "type": "active",
+        "desc": "Perfora la guardia del objetivo y deja un sangrado constante.",
+        "source": "Bloodmoon Reaper"
+      },
+      {
+        "id": "cosechaEscarlata",
+        "name": "Cosecha Escarlata",
+        "type": "active",
+        "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+        "source": "Bloodmoon Reaper"
+      },
+      {
+        "id": "rabiaPrimordial",
+        "name": "Rabia Primordial",
+        "type": "passive",
+        "desc": "Gana ataque cuando cae por debajo del 40% de vida.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "mareaVoraz",
+        "name": "Marea Voraz",
+        "type": "active",
+        "desc": "Desgarra al rival, roba vida y aplica Sangrado.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "golpeVoraz",
+        "name": "Golpe Voraz",
+        "type": "active",
+        "desc": "Inflige dano y cura parte del dano causado.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "auraDeSosten",
+        "name": "Aura De Sosten",
+        "type": "passive",
+        "desc": "Mejora la regeneracion base.",
+        "source": "Solara, Regente Cenital"
+      },
+      {
+        "id": "renacerSolar",
+        "name": "Renacer Solar",
+        "type": "active",
+        "desc": "Se cura, levanta Escudo y activa Regeneracion por 2 turnos.",
+        "source": "Solara, Regente Cenital"
+      },
+      {
+        "id": "pulsoVital",
+        "name": "Pulso Vital",
+        "type": "active",
+        "desc": "Aplica Regeneracion durante 2 turnos.",
+        "source": "Solara, Regente Cenital"
+      },
+      {
+        "id": "llamaAgonica",
+        "name": "Llama Agonica",
+        "type": "active",
+        "desc": "Quema al rival y castiga su recuperacion.",
+        "source": "Pyroclast Drake"
+      },
+      {
+        "id": "cazaImplacable",
+        "name": "Caza Implacable",
+        "type": "passive",
+        "desc": "Inflige mas dano a enemigos debilitados.",
+        "source": "Kaelith, Soberano del Vendaval"
+      },
+      {
+        "id": "sangreAbierta",
+        "name": "Sangre Abierta",
+        "type": "active",
+        "desc": "Aplica Sangrado durante 2 turnos.",
+        "source": "Nyxar, Hambre de la Fosa"
+      },
+      {
+        "id": "embateSalvaje",
+        "name": "Embate Salvaje",
+        "type": "active",
+        "desc": "Carga con violencia y activa un impulso de ataque por 2 turnos.",
+        "source": "Thunder Behemoth"
+      },
+      {
+        "id": "vendavalRasante",
+        "name": "Vendaval Rasante",
+        "type": "active",
+        "desc": "Embiste con un corte veloz y deja Expuesto al objetivo.",
+        "source": "Kaelith, Soberano del Vendaval"
+      },
+      {
+        "id": "coronaDelEclipse",
+        "name": "Corona Del Eclipse",
+        "type": "active",
+        "desc": "Golpe pesado que deja Expuesto al rival durante 2 turnos.",
+        "source": "Aurelion, Custodio del Eclipse"
+      },
+      {
+        "id": "eclipseDebilitante",
+        "name": "Eclipse Debilitante",
+        "type": "active",
+        "desc": "Reduce el ataque rival durante 2 turnos.",
+        "source": "Aurelion, Custodio del Eclipse"
+      },
+      {
+        "id": "muroAstral",
+        "name": "Muro Astral",
+        "type": "active",
+        "desc": "Otorga un escudo por 2 turnos.",
+        "source": "Orophis, Bastion del Verdor"
+      },
+      {
+        "id": "selloDelTitan",
+        "name": "Sello Del Titan",
+        "type": "active",
+        "desc": "Marca la arena con un sello antiguo que fortalece tu defensa.",
+        "source": "Mareas Coronadas"
+      }
+    ],
+    "bossArchive": [
+      {
+        "bossId": "orophis_bastion",
+        "name": "Orophis, Bastion del Verdor",
+        "title": "Bastion del Verdor",
+        "archetype": "guardiana",
+        "race": "Colosos del Verdor",
+        "pantheon": "Sylvara",
+        "invocationView": "Orophis es recordado por las invocaciones del verdor como una muralla noble. Ahora sus raices aprietan la arena como si quisiera sepultar con ella el error de los dioses.",
+        "image": "assets/creatures/Titan_Mossbeard.png",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-11T23:36:02.927Z",
+        "lastDefeatedAt": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "name": "Nyxar, Hambre de la Fosa",
+        "title": "Hambre de la Fosa",
+        "archetype": "vampirica",
+        "race": "Leviatanes de la Fosa",
+        "pantheon": "Vorath",
+        "invocationView": "Las invocaciones del abismo cuentan que Nyxar no nacio maldito, sino hambriento. Cuando el mundo cayo, fue el primero en descubrir que la ruina tambien alimenta.",
+        "image": "assets/creatures/Void_Leviathan.png",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-11T23:31:05.506Z",
+        "lastDefeatedAt": "2026-04-11T23:31:05.506Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "name": "Solara, Regente Cenital",
+        "title": "Regente Cenital",
+        "archetype": "support",
+        "race": "Fenix del Cenit",
+        "pantheon": "Helion",
+        "invocationView": "Para nuestras criaturas, Solara es la prueba de que hasta el renacer puede corromperse. Sus llamas todavia recuerdan el calor del santuario, pero ya solo traen desgaste.",
+        "image": "assets/creatures/Sunflare_Phoenix.png",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-11T23:17:19.152Z",
+        "lastDefeatedAt": "2026-04-11T23:17:19.152Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "name": "Kaelith, Soberano del Vendaval",
+        "title": "Soberano del Vendaval",
+        "archetype": "salvaje",
+        "race": "Hidras Tempestivas",
+        "pantheon": "Kairon",
+        "invocationView": "Los cazadores invocados narran que Kaelith fue un rey de rutas abiertas. Tras la caida, su vendaval ya no guia: despedaza todo lo que duda.",
+        "image": "assets/creatures/Storm_Hydra.png",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-11T21:09:02.730Z",
+        "lastDefeatedAt": "2026-04-11T21:09:02.730Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "name": "Aurelion, Custodio del Eclipse",
+        "title": "Custodio del Eclipse",
+        "archetype": "mistica",
+        "race": "Serafines del Velo",
+        "pantheon": "Helion",
+        "invocationView": "Nuestra invocacion vio en Aurelion a un custodio que no quiso abandonar su puesto cuando el cielo se partio. Lo que queda de su luz ya no protege: ahora juzga.",
+        "image": "assets/creatures/aurelion_eclipse.png",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "defeats": 1,
+        "firstDefeatedAt": "2026-04-11T20:14:04.618Z",
+        "lastDefeatedAt": "2026-04-11T20:14:04.618Z"
+      }
+    ],
+    "bossBanners": [
+      {
+        "bossId": "orophis_bastion",
+        "rewardTitle": "Estandarte de Bastion del Verdor",
+        "unlockedAt": "2026-04-11T23:36:02.927Z"
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "rewardTitle": "Estandarte de Hambre de la Fosa",
+        "unlockedAt": "2026-04-11T23:31:05.506Z"
+      },
+      {
+        "bossId": "solara_regente",
+        "rewardTitle": "Estandarte de Regente Cenital",
+        "unlockedAt": "2026-04-11T23:17:19.152Z"
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "rewardTitle": "Estandarte de Soberano del Vendaval",
+        "unlockedAt": "2026-04-11T21:09:02.730Z"
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "rewardTitle": "Estandarte de Custodio del Eclipse",
+        "unlockedAt": "2026-04-11T20:14:04.618Z"
+      }
+    ],
+    "apostleRelics": [
+      {
+        "bossId": "orophis_bastion",
+        "unlockedAt": "2026-04-11T23:36:02.927Z",
+        "relicId": "relic_savia_core",
+        "relicName": "Nucleo De Savia Ancestral",
+        "attunement": "Sylvara",
+        "effectText": "Reliquia viva del Bastion del Verdor.",
+        "lore": "Una savia mineralizada que aun respira con la memoria de bosques extinguidos.",
+        "combatEffects": [
+          {
+            "stat": "shield",
+            "amount": 12,
+            "durationTurns": 2
+          }
+        ]
+      },
+      {
+        "bossId": "nyxar_abyss",
+        "unlockedAt": "2026-04-11T23:31:05.506Z",
+        "relicId": "relic_fosa_heart",
+        "relicName": "Corazon De La Fosa",
+        "attunement": "Vorath",
+        "effectText": "Nucleo oscuro de la Hambre de la Fosa.",
+        "lore": "Late como si el abismo siguiera hambriento y quisiera volver a tragarse el mundo.",
+        "combatEffects": [
+          {
+            "stat": "attackFlat",
+            "amount": 2,
+            "durationTurns": 99
+          },
+          {
+            "stat": "regenTurn",
+            "amount": 1,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "solara_regente",
+        "unlockedAt": "2026-04-11T23:17:19.152Z",
+        "relicId": "relic_cenit_plume",
+        "relicName": "Pluma Del Cenit",
+        "attunement": "Helion",
+        "effectText": "Vestigio de la Regente Cenital y de su renacer perpetuo.",
+        "lore": "Nunca se enfria del todo. Su resplandor recuerda a las razas que aun resisten al ocaso.",
+        "combatEffects": [
+          {
+            "stat": "regenTurn",
+            "amount": 4,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "kaelith_vendaval",
+        "unlockedAt": "2026-04-11T21:09:02.730Z",
+        "relicId": "relic_storm_fang",
+        "relicName": "Colmillo De Tempestad",
+        "attunement": "Kairon",
+        "effectText": "Trofeo del Soberano del Vendaval, simbolo de velocidad y remate.",
+        "lore": "Cruje con electricidad residual y con el eco de mil cacerias abiertas en la tormenta.",
+        "combatEffects": [
+          {
+            "stat": "attackPct",
+            "amount": 0.12,
+            "durationTurns": 99
+          }
+        ]
+      },
+      {
+        "bossId": "aurelion_eclipse",
+        "unlockedAt": "2026-04-11T20:14:04.618Z",
+        "relicId": "relic_eclipse_shard",
+        "relicName": "Fragmento Del Eclipse",
+        "attunement": "Helion",
+        "effectText": "Recuerdo del Custodio del Eclipse y de la primera fractura del velo.",
+        "lore": "Una esquirla dorada que vibra cuando una defensa demasiado confiada esta por quebrarse.",
+        "combatEffects": [
+          {
+            "stat": "defenseFlat",
+            "amount": 2,
+            "durationTurns": 99
+          }
+        ]
+      }
+    ],
+    "divinityFragments": [
+      {
+        "fragmentId": "fragment_Helion_Serafines del Velo",
+        "legacy": "Helion",
+        "race": "Serafines del Velo",
+        "obtainedAt": "2026-04-11T20:14:04.619Z",
+        "bossName": "Aurelion, Custodio del Eclipse"
+      },
+      {
+        "fragmentId": "fragment_Vorath_Leviatanes de la Fosa",
+        "legacy": "Vorath",
+        "race": "Leviatanes de la Fosa",
+        "obtainedAt": "2026-04-11T23:31:05.507Z",
+        "bossName": "Nyxar, Hambre de la Fosa"
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-11T20:10:38.381Z",
+    "lastSeenAt": "2026-04-23T23:59:04.711Z"
+  },
+  "player_a15mkwyy1o": {
+    "name": "Invocador",
+    "sessionToken": "02c1e902b7a5c3184f6314ef9391dcfa6cee",
+    "keys": 0,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": {
+      "name": "Bloodmoon Reaper",
+      "image": "assets/creatures/Bloodmoon_Reaper.png",
+      "vida": 94,
+      "ataque": 24,
+      "defensa": 7,
+      "regen": 1,
+      "archetype": "vampirica",
+      "race": "Segadores Luna Roja",
+      "legacy": "Vorath",
+      "signatureAbilityId": "cosechaEscarlata",
+      "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+      "rank": "comun",
+      "vidaMax": 94,
+      "abilities": [
+        {
+          "id": "cosechaEscarlata",
+          "name": "Cosecha Escarlata",
+          "type": "active",
+          "archetypes": [
+            "vampirica"
+          ],
+          "cooldownTurns": 4,
+          "damageMultiplier": 1.08,
+          "lifestealPct": 0.3,
+          "durationTurns": 2,
+          "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+          "effects": [
+            {
+              "target": "enemy",
+              "stat": "burn",
+              "amount": 4,
+              "durationTurns": 2
+            }
+          ]
+        }
+      ]
+    },
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Bloodmoon Reaper (comun).",
+        "tone": "good",
+        "at": "2026-04-11T21:01:56.307Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Pyroclast Drake (comun).",
+        "tone": "good",
+        "at": "2026-04-11T21:01:47.318Z"
+      },
+      {
+        "title": "Nueva invocacion",
+        "detail": "Obtuviste a Aurelion Eclipse (pocoComun).",
+        "tone": "good",
+        "at": "2026-04-11T21:01:46.570Z"
+      }
+    ],
+    "collection": [
+      {
+        "name": "Bloodmoon Reaper",
+        "image": "assets/creatures/Bloodmoon_Reaper.png",
+        "archetype": "vampirica",
+        "race": "Segadores Luna Roja",
+        "legacy": "Vorath",
+        "lore": "Cosecha sangre bajo lunas rojas y vuelve mas fuerte en cada corte.",
+        "primaryAbility": {
+          "id": "cosechaEscarlata",
+          "name": "Cosecha Escarlata",
+          "type": "active",
+          "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T21:01:56.307Z"
+      },
+      {
+        "name": "Pyroclast Drake",
+        "image": "assets/creatures/pyroclast_drake.png",
+        "archetype": "asaltante",
+        "race": "Dracos Magmaticos",
+        "legacy": "Helion",
+        "lore": "Un draco de magma que convierte cada error rival en cenizas.",
+        "primaryAbility": {
+          "id": "llamaAgonica",
+          "name": "Llama Agonica",
+          "type": "active",
+          "desc": "Quema al rival y castiga su recuperacion."
+        },
+        "bestRank": "comun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T21:01:47.318Z"
+      },
+      {
+        "name": "Aurelion Eclipse",
+        "image": "assets/creatures/aurelion_eclipse.png",
+        "archetype": "support",
+        "race": "Serafines del Velo",
+        "legacy": "Helion",
+        "lore": "Portadora de una luz antigua que sostiene a los invocadores.",
+        "primaryAbility": {
+          "id": "letaniaDelAlba",
+          "name": "Letania Del Alba",
+          "type": "active",
+          "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion."
+        },
+        "bestRank": "pocoComun",
+        "count": 1,
+        "lastSeenAt": "2026-04-11T21:01:46.570Z"
+      }
+    ],
+    "discoveredAbilities": [
+      {
+        "id": "cosechaEscarlata",
+        "name": "Cosecha Escarlata",
+        "type": "active",
+        "desc": "Corta, roba vida y deja una Quemadura sangrienta en el rival.",
+        "source": "Bloodmoon Reaper"
+      },
+      {
+        "id": "llamaAgonica",
+        "name": "Llama Agonica",
+        "type": "active",
+        "desc": "Quema al rival y castiga su recuperacion.",
+        "source": "Pyroclast Drake"
+      },
+      {
+        "id": "letaniaDelAlba",
+        "name": "Letania Del Alba",
+        "type": "active",
+        "desc": "Entona una letania que restaura vida y fortalece la defensa con regeneracion.",
+        "source": "Aurelion Eclipse"
+      }
+    ],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "divinityFragments": [
+      {
+        "fragmentId": "fragment_Helion_Serafines del Velo",
+        "legacy": "Helion",
+        "race": "Serafines del Velo",
+        "obtainedAt": "2026-04-11T20:14:04.619Z",
+        "bossName": "Aurelion, Custodio del Eclipse"
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-11T21:01:44.539Z",
+    "lastSeenAt": "2026-04-11T21:01:56.307Z"
+  },
+  "acct_fa51e0a78a0cdca8": {
+    "name": "Paloma",
+    "sessionToken": "fa98aeb3e5283d0d53b5f7f21d9759f3107f",
+    "keys": 3,
+    "gold": 0,
+    "essence": 0,
+    "wins": 0,
+    "losses": 0,
+    "bossWins": 0,
+    "creature": null,
+    "consumables": {},
+    "summonModifiers": {},
+    "unlockedBackgrounds": [
+      "default_nexus"
+    ],
+    "equippedBackgroundId": "default_nexus",
+    "unlockedCardFrames": [
+      "default_frame"
+    ],
+    "equippedCardFrameId": "default_frame",
+    "equippedRelicId": "",
+    "defeatedGods": [],
+    "unlockedMusicTracks": [],
+    "claimedBossRewards": [],
+    "claimedApostleMilestones": [],
+    "preservedCreatures": [],
+    "history": [
+      {
+        "title": "Nombre actualizado",
+        "detail": "Ahora juegas como Paloma.",
+        "tone": "neutral",
+        "at": "2026-04-13T19:15:18.159Z"
+      }
+    ],
+    "collection": [],
+    "discoveredAbilities": [],
+    "bossArchive": [],
+    "bossBanners": [],
+    "apostleRelics": [],
+    "divinityFragments": [
+      {
+        "fragmentId": "fragment_Helion_Serafines del Velo",
+        "legacy": "Helion",
+        "race": "Serafines del Velo",
+        "obtainedAt": "2026-04-11T20:14:04.619Z",
+        "bossName": "Aurelion, Custodio del Eclipse"
+      },
+      {
+        "fragmentId": "fragment_Vorath_Leviatanes de la Fosa",
+        "legacy": "Vorath",
+        "race": "Leviatanes de la Fosa",
+        "obtainedAt": "2026-04-11T23:31:05.507Z",
+        "bossName": "Nyxar, Hambre de la Fosa"
+      }
+    ],
+    "deleted": false,
+    "deletedAt": null,
+    "createdAt": "2026-04-13T19:15:05.582Z",
+    "lastSeenAt": "2026-04-13T21:22:20.370Z"
+  }
+}

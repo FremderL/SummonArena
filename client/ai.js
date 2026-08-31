@@ -2,28 +2,33 @@
    Responsable: inteligencia artificial del enemigo en modo local
 */
 (() => {
-  function decideAction(aiCreature, playerCreature){
-    // Prioridades según especificación
+  function decideAction(aiCreature, playerCreature) {
+    const ability = aiCreature && aiCreature.abilities && aiCreature.abilities[0];
+    const cooldowns = (aiCreature && aiCreature._cooldowns) || {};
+    const abilityReady = !!(ability && ability.type === 'active' && !(cooldowns[ability.id] > 0));
     const lifePct = aiCreature.vida / aiCreature.vidaMax;
     const enemyLifePct = playerCreature ? (playerCreature.vida / playerCreature.vidaMax) : 0;
-
-    // si puede matar -> atacar
     const possibleDmg = Math.max(1, aiCreature.ataque - (playerCreature.defensa || 0));
-    if(playerCreature && playerCreature.vida - possibleDmg <= 0){
-      return 'attack';
+
+    if (playerCreature && playerCreature.vida - possibleDmg <= 0) {
+      return abilityReady && Math.random() < 0.65 ? 'ability' : 'attack';
     }
 
-    if(lifePct < 0.35){
-      // prefer recuperar si cura > defender
-      if(aiCreature.regen * 1.2 > 3) return Math.random() < 0.6 ? 'recover' : 'defend';
+    if (lifePct < 0.35) {
+      if (abilityReady && ability.id === 'reinicioTemporal') return 'ability';
+      if (aiCreature.regen * 1.2 > 3) return Math.random() < 0.6 ? 'recover' : 'defend';
       return 'defend';
     }
 
-    // si tiene habilidad, 40% de usarla
-    if(aiCreature.abilities && aiCreature.abilities.length > 0 && Math.random() < 0.4) return 'ability';
+    if (abilityReady) {
+      if (enemyLifePct < 0.45) return Math.random() < 0.72 ? 'ability' : 'attack';
+      if (Math.random() < 0.58) return 'ability';
+    }
+
+    if (lifePct < 0.6 && Math.random() < 0.28) return 'defend';
 
     return 'attack';
   }
 
-  window.SimpleAI = {decideAction};
+  window.SimpleAI = { decideAction };
 })();
